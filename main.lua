@@ -169,7 +169,7 @@ screenGui.Parent = guiParent
 -- Кнопка Toggle (чуть выше)
 local toggleButton = Instance.new("TextButton")
 toggleButton.Name = "ToggleHubButton"
-toggleButton.Size = UDim2.new(0, 140, 0, 30)
+toggleButton.Size = UDim2.new(0, 300, 0, 30)
 toggleButton.AnchorPoint = Vector2.new(0.5, 0)
 toggleButton.Position = UDim2.new(0.1, 0, 0, 2) -- было 0,6 → поднял выше
 toggleButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
