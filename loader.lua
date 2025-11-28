@@ -146,8 +146,7 @@ infoLabel.TextYAlignment = Enum.TextYAlignment.Top
 infoLabel.Font = Enum.Font.Gotham
 infoLabel.TextSize = 14
 infoLabel.TextColor3 = Color3.fromRGB(220, 220, 220)
-infoLabel.Text = "A key is required to access the ROBScript Hub.\n" ..
-                 "Get the key by clicking the button and enter it below"
+infoLabel.Text = "A key is required to access the ROBScript Hub.\nGet the key by clicking the button and enter it below."
 infoLabel.Parent = mainFrame
 
 local linkButton = Instance.new("TextButton")
@@ -174,8 +173,7 @@ linkButton.MouseButton1Click:Connect(function()
     if syn and syn.request then
         syn.request({Url = url, Method = "GET"})
     end
-    infoLabel.Text = "Link to key: https://loot-link.com/s?WfeVrHSR\n" ..
-                     "Copied to the clipboard (paste in the browser))."
+    infoLabel.Text = "Link to key: https://loot-link.com/s?WfeVrHSR\nCopied to the clipboard (paste in the browser)."
 end)
 
 local keyBox = Instance.new("TextBox")
@@ -199,11 +197,11 @@ cornerKey.Parent = keyBox
 
 local statusLabel = Instance.new("TextLabel")
 statusLabel.Name = "Status"
-statusLabel.Size = UDim2.new(1, -20, 0, 16)
+statusLabel.Size = UDim2.new(1, -20, 0, 20)
 statusLabel.Position = UDim2.new(0, 10, 0, 176)
 statusLabel.BackgroundTransparency = 1
 statusLabel.Font = Enum.Font.Gotham
-statusLabel.TextSize = 13
+statusLabel.TextSize = 14
 statusLabel.TextColor3 = Color3.fromRGB(200, 80, 80)
 statusLabel.Text = ""
 statusLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -250,6 +248,25 @@ local function destroyWithFade()
 end
 
 ---------------------------------------------------------------------
+-- ЛЁГКАЯ АНИМАЦИЯ ОШИБКИ (SHAKE)
+---------------------------------------------------------------------
+
+local function showError(msg)
+    statusLabel.TextColor3 = Color3.fromRGB(220, 80, 80)
+    statusLabel.Text = msg
+
+    -- маленький "shake" окна, чтобы юзер заметил
+    task.spawn(function()
+        local original = mainFrame.Position
+        for i = 1, 6 do
+            mainFrame.Position = original + UDim2.new(0, (i % 2 == 0) and 4 or -4, 0, 0)
+            task.wait(0.03)
+        end
+        mainFrame.Position = original
+    end)
+end
+
+---------------------------------------------------------------------
 -- ЗАГРУЗКА ОСНОВНОГО СКРИПТА ХАБА
 ---------------------------------------------------------------------
 
@@ -258,16 +275,14 @@ local function loadMainHub()
         return game:HttpGet(MAIN_URL, true)
     end)
     if not ok then
-        statusLabel.TextColor3 = Color3.fromRGB(200, 80, 80)
-        statusLabel.Text = "Hub loading error."
+        showError("Hub loading error.")
         warn("[ROBScript KeyLoader] HttpGet main.lua failed:", res)
         return
     end
 
     local fn, err = loadstring(res)
     if not fn then
-        statusLabel.TextColor3 = Color3.fromRGB(200, 80, 80)
-        statusLabel.Text = "Hub compilation error."
+        showError("Hub compilation error.")
         warn("[ROBScript KeyLoader] loadstring main.lua error:", err)
         return
     end
@@ -288,19 +303,17 @@ end
 local function checkKeyAndLoad()
     local key = (keyBox.Text or ""):gsub("^%s+", ""):gsub("%s+$", "")
     if key == "" then
-        statusLabel.TextColor3 = Color3.fromRGB(200, 80, 80)
-        statusLabel.Text = "Key is not entered."
+        showError("Key is not entered.")
         return
     end
 
     if key ~= REQUIRED_KEY then
-        statusLabel.TextColor3 = Color3.fromRGB(200, 80, 80)
-        statusLabel.Text = "Wrong Key"
+        showError("Wrong key.")
         return
     end
 
     statusLabel.TextColor3 = Color3.fromRGB(120, 220, 120)
-    statusLabel.Text = "The key is correct, I'm loading the hub..."
+    statusLabel.Text = "The key is correct, loading hub..."
     loadMainHub()
 end
 
