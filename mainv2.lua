@@ -1,0 +1,5122 @@
+-- ROBScript Hub using Rayfield (data embedded, no external JSON)
+
+-- Load Rayfield Interface Suite
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local allPages = {
+    {
+        page_url = "https://robscript.com/blox-fruits-scripts/",
+        slug = "blox-fruits-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Cat Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CatsScripts/CatsRobloxScripts/refs/heads/main/loader.luau\"))()",
+            },
+            {
+                title = "NO KEY Nat Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/bf.lua\"))()",
+            },
+            {
+                title = "NO KEY Styxz Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ToshyWare/StyxzHub/main/Styxz.lua\"))()",
+            },
+            {
+                title = "BEST KEYLESS Blox Fruits script – (Speed Hub X)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua\"))()",
+            },
+            {
+                title = "NO KEY Fast Chest Farm",
+                has_key = false,
+                code = "getgenv().mmb = {
+    setting = {
+        [\"Select Team\"] = \"Marines\", --// Select Pirates Or Marines
+        [\"TweenSpeed\"] = 200,
+        [\"Standing on the water\"] = true,  --// Standing on the water
+        [\"Remove Notify Game\"] = true, --// Turn off game notifications 
+        [\"Rejoin When kicked\"] = true, --// Auto rejoin when you get kicked
+        [\"Anti-Afk\"] = true  --// Anti-AFK
+    },
+    ChestSettings = {
+        [\"Esp Chest\"] = true, --// ESP entire Chest        
+        [\"Start Farm Chest\"] = {
+            [\"Enable\"] = true, --// Turn On Farm Chest 
+            [\"lock money\"] = 1000000000, --// Amount of Money To Stop
+            [\"Hop After Collected\"] = \"All\" --// Enter The Number of Chests You Want To Pick Up Like \"Number\" or \"All\"
+        },
+        [\"Stop When Have God's Chalice & Fist Of Darkness\"] = { 
+            [\"Enable\"] = true, --// Stop when you have God's Chalice & Fist Of Darkness 
+            [\"Automatically move to safety\"] = false --// Auto Move To Safe Place When Have Special Items
+        },
+    },
+    RaceCyborg = {
+        [\"Auto get race Cyborg\"] = false,  --// true If You Want Auto Get Cyborg Race
+        [\"Upgrade Race: V2/V3\"] = false  --// ⭐ New
+    },
+    Webhook = {
+        [\"send Webhook\"] = false, --// Send Webhook Auto Setup
+        [\"Url Webhook\"] = \"\", --// Link Url Webhook
+        [\"UserId\"] = \"\" --// Id Discord You
+    }
+}
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/NaruTeam/Abyss/refs/heads/main/AbyssChest.lua\"))()",
+            },
+            {
+                title = "Blox Fruits script – (Fruit finder)",
+                has_key = false,
+                code = "_G.CatsFruitFinderV4 = {
+    Notify = true,
+    Webhook = \"Webhook REQUIRED\",
+    Mode = \"Teleport Fruit\", -- \"Teleport Fruit\" or \"Tween Fruit\"
+    AutoStore = true,
+    AutoJoinTeam = true,
+    Team = \"Pirates\", -- team to join
+    FruitList = {
+        \"Mammoth\",
+        \"Buddha\",
+        \"Dough\",
+        \"Leopard\",
+        \"Venom\",
+        \"Dragon\",
+        \"Gravity\",
+        \"Rumble\",
+        \"T-Rex\",
+        \"Control\",
+        \"Spirit\",
+        \"Gas\",
+        \"Shadow\",
+        \"Kitsune\",
+        \"West Dragon\",
+        \"East Dragon\" -- add more here if u want 
+    },
+}
+
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CatsScripts/CatsRobloxScripts/main/CatsBetterFruitFinder.luau?t=\" .. tick()))()",
+            },
+            {
+                title = "Forge Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua\"))()",
+            },
+            {
+                title = "Solix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua\"))()",
+            },
+            {
+                title = "Mukuro Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/99-nights-in-the-forest-scripts/",
+        slug = "99-nights-in-the-forest-scripts",
+        scripts = {
+            {
+                title = "KEYLESS 99 Nights in the Forest script – (FAST HUB)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/adibhub1/99-nighit-in-forest/refs/heads/main/99%20night%20in%20forest\"))()",
+            },
+            {
+                title = "NO KEY Bring Items",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/bringitems.lua\"))()",
+            },
+            {
+                title = "Cobra Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Backwoodsix/Cobra.gg-99-nights-in-the-Forrest-FREE-keyless-/refs/heads/main/.lua\", true))()",
+            },
+            {
+                title = "Sapphire Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastefy.app/KmtjbIBi/raw\", true))()",
+            },
+            {
+                title = "Blessed Hub X",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mynamewendel-ctrl/Blessed-Hub-X-/refs/heads/main/99-Nights-In-Forest.lua\"))()",
+            },
+            {
+                title = "Vex Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/yoursvexyyy/VEX-OP/refs/heads/main/99%20nights%20in%20the%20forest\"))()",
+            },
+            {
+                title = "Anon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/sa435125/AnonHub/refs/heads/main/anonhub.lua\"))();",
+            },
+            {
+                title = "Monkey Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MonkeyV2/loader/refs/heads/main/loader.lua\",true))()",
+            },
+            {
+                title = "Starfall hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Severitysvc/Starfall/refs/heads/main/Loader.lua\"))()",
+            },
+            {
+                title = "H4xScript hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua\", true))()",
+            },
+            {
+                title = "Overflow hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OverflowBGSI/Overflow/refs/heads/main/loader.txt\"))()",
+            },
+            {
+                title = "Nexis Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/boringcat4646/Nexis-Hub/main/v2\"))()",
+            },
+            {
+                title = "Stellar Universe",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/5eb08ffffc36b5fc8b948351cbe7b0ad.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/grow-a-garden-scripts/",
+        slug = "grow-a-garden-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Grow a Garden script – (Nat Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/GrowaGarden\"))()",
+            },
+            {
+                title = "Mimi Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Jstarzz/Grow-A-Garden/refs/heads/main/source/MimiHub.lua\", true))()",
+            },
+            {
+                title = "Wet Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Night-Hub/WetHubReformed/refs/heads/main/Loadstring\"))()",
+            },
+            {
+                title = "Than Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1\"))()",
+            },
+            {
+                title = "Crystal Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1\"))()",
+            },
+            {
+                title = "Lumin Hub",
+                has_key = true,
+                code = "if identifyexecutor and identifyexecutor():lower():find(\"delta\") then
+    loadstring(game:HttpGet(\"https://lumin-hub.lol/deltaloader.lua\", true))()
+else
+    loadstring(game:HttpGet(\"https://lumin-hub.lol/loader.lua\", true))()
+end",
+            },
+            {
+                title = "Black Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Skibidiking123/Fisch1/refs/heads/main/FischMain\"))()",
+            },
+            {
+                title = "ExploitingIsFun hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://cdn.exploitingis.fun/loader', true))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Monkey Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MonkeyV2/loader/refs/heads/main/loader.lua\",true))()",
+            },
+            {
+                title = "Starfall Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Severitysvc/Starfall/refs/heads/main/Loader.lua\"))()",
+            },
+            {
+                title = "Horizon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Laspard69/HorizonHub/refs/heads/main/loader.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/fish-it-scripts/",
+        slug = "fish-it-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Fish It script – (Polluted Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/b9162d4ef4823b2af2f93664cf9ec393.lua\"))()",
+            },
+            {
+                title = "Poop Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/sylolua/PoopHub/refs/heads/main/Loader\",true))()",
+            },
+            {
+                title = "Aurora Hex",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JScripter-Lua/Aorora_Hex/refs/heads/main/Fish_It.lua\"))()",
+            },
+            {
+                title = "Kali Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://kalihub.xyz/loader.lua'))()",
+            },
+            {
+                title = "AshLabs",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://ashlabs.me/api/game?name=fish-it.lua\", true))()",
+            },
+            {
+                title = "Aeonic Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mazino45/main/refs/heads/main/MainScript.lua\"))()",
+            },
+            {
+                title = "Chiyo Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua\"))()",
+            },
+            {
+                title = "Thunder Hub",
+                has_key = true,
+                code = "_G.AutoFishing = true
+_G.AutoPerfectCast = true
+_G.AutoSell = true
+_G.EquipBestBait = true
+_G.EquipBestRod = true
+_G.AutoEquipRod = true
+_G.AutoBuyBestBait = true
+_G.AutoBuyBestRod = true
+_G.AutoTP = true
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/NAVAAI098/Thunder-Hub/main/Kaitun.lua\"))()",
+            },
+            {
+                title = "Xperia Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ARMANSYAH112/XperiaHub/main/indexob.lua\"))()",
+            },
+            {
+                title = "Da7Mu Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/f11dec38be134a051fe3de9538f83997b73cdf03d136c10262e62cfe97673ea6/download\"))()",
+            },
+            {
+                title = "Frxser Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/XeFrostz/freetrash/refs/heads/main/Fishit!.lua'))()",
+            },
+            {
+                title = "Space Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "Ather Hub",
+                has_key = true,
+                code = "script_key = \"Add key here to auto verify\"
+loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua\"))()",
+            },
+            {
+                title = "Neox Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/loader\", true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/forsaken-scripts/",
+        slug = "forsaken-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Forsaken script – (Voidware Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/forsaken.lua\", true))()",
+            },
+            {
+                title = "RX Forsakened",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Redexe19/RXGUIV1/refs/heads/main/RX%20Forsaken/RX_Forsakened\"))()",
+            },
+            {
+                title = "Voidsaken hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/voidsaken-script/Voidsaken-Loader/refs/heads/main/main\"))()",
+            },
+            {
+                title = "NXP Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/fuckg1thub/NeptX/refs/heads/main/NeptZ/Forsaken/source.lua\"))()",
+            },
+            {
+                title = "Funny Hub V2",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/PlutomasterAccount/Funny-Hub/main/Funny%20Hub%20V2\"))()",
+            },
+            {
+                title = "ESP Players",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/PlutomasterAccount/Forsaken-ESP/refs/heads/main/Forsaken%20ESP%20Plutomaster.lua\"))()",
+            },
+            {
+                title = "Rift Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://rifton.top/loader.lua\"))()",
+            },
+            {
+                title = "Sasaken Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/ScriptCopilot32/Forsaken/refs/heads/main/Forsakenscript'))()",
+            },
+            {
+                title = "Ringta Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/wefwef127382/forsakenloader.github.io/refs/heads/main/RINGTABUBLIK.lua\"))()",
+            },
+            {
+                title = "Vex Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/yoursvexyyy/VEX-OP/refs/heads/main/forsaken%20final\"))()",
+            },
+            {
+                title = "FrostWare Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Snowie3310/Frostware/main/Forsaken.lua\"))()",
+            },
+            {
+                title = "Lumin Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://lumin-hub.lol/loader.lua\",true))()",
+            },
+            {
+                title = "Lazy Devs",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://www.lazydevs.site/forsaken.script\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/hunty-zombie-scripts/",
+        slug = "hunty-zombie-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Hunty Zombie script – (Polluted Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/7b5caf0fbbd276ba9747f231e47c0b1a.lua\"))()",
+            },
+            {
+                title = "Siffori Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/NysaDanielle/loader/refs/heads/main/auth\"))()",
+            },
+            {
+                title = "Nexis Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/boringcat4646/Nexis-Hub/refs/heads/main/Key%20System\"))()",
+            },
+            {
+                title = "Astral Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/PlayzlxD0tmatter/AstralHub/refs/heads/main/AstralHub\"))()",
+            },
+            {
+                title = "yKCelestial Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MajestySkie/list/refs/heads/main/games\"))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Combo Wick Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/checkurasshole/Script/refs/heads/main/IQ'))();",
+            },
+            {
+                title = "Aeonic Hub",
+                has_key = true,
+                code = "script_key = \"PASTEYOURKEYHERE\"
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mazino45/main/refs/heads/main/MainScript.lua\"))()",
+            },
+            {
+                title = "Chiyo Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/kaisenlmao/loader/refs/heads/main/chiyo.lua\"))()",
+            },
+            {
+                title = "Xtreme Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://cdn.authguard.org/virtual-file/836c860722ef4f0db67f5fcf21e13b07\"))()",
+            },
+            {
+                title = "Kali Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://kalihub.xyz/loader.lua'))()",
+            },
+            {
+                title = "Chito Hub",
+                has_key = true,
+                code = "script_key=\"YOUR KEY HERE\";
+loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/f506b1e1bf8259b8178f83b65751dcf8.lua\"))()",
+            },
+            {
+                title = "Napoleon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/src.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/ink-game-scripts/",
+        slug = "ink-game-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Ink Game script – (Ringta Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/wefwef127382/inkgames.github.io/refs/heads/main/ringta.lua\"))()",
+            },
+            {
+                title = "Voidware Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/windinkgame.lua\", true))()",
+            },
+            {
+                title = "FrostWare",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Actualmrp/FWInkGame/refs/heads/main/FrostwareInkGameSource.txt\"))()",
+            },
+            {
+                title = "ExploitingIsFun Hub",
+                has_key = true,
+                code = "-- make sure to put me in AUTO EXECUTE or else the bypass and emulation will NOT work
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ExploitingisFUNN/12312312313/refs/heads/main/ushdfyfeuyetwfge3.lua'))() -- the emulation
+task.wait(10)
+loadstring(game:HttpGet(\"https://cdn.exploitingis.fun/loader\"))()",
+            },
+            {
+                title = "OwlHook hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/0785b4b8f41683be513badd57f6a71c0.lua\"))()",
+            },
+            {
+                title = "Ronix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/7d8a2a1a9a562a403b52532e58a14065.lua\"))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/steal-a-brainrot-scripts/",
+        slug = "steal-a-brainrot-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Steal a Brainrot script – (Lemon Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/ffdfeadf0af798741806ea404682a938.lua\"))()",
+            },
+            {
+                title = "FrostWare Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Jake-Brock/Scripts/main/Fw%20SAB.lua\",true))()",
+            },
+            {
+                title = "Ronix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/7d8a2a1a9a562a403b52532e58a14065.lua\"))()",
+            },
+            {
+                title = "Neox Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/StealABrainrot\"))()",
+            },
+            {
+                title = "Overflow Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OverflowBGSI/Overflow/refs/heads/main/loader.txt\"))()",
+            },
+            {
+                title = "Moondiety Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/m00ndiety/99-nights-in-the-forest/refs/heads/main/Main\"))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Pulsar X Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Estevansit0/KJJK/refs/heads/main/PusarX-loader.lua\"))()",
+            },
+            {
+                title = "Anon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/sa435125/AnonHub/refs/heads/main/anonhub.lua\"))();",
+            },
+            {
+                title = "ComboChronicles Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/checkurasshole/Script/refs/heads/main/IQ'))();",
+            },
+            {
+                title = "KOBEH Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/0904a0ce54d17ca3a7373f417f4666c0ca1b821df3b72ce5a20745aa0fed298c/download\"))()",
+            },
+            {
+                title = "Lumin Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://lumin-hub.lol/loader.lua\",true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/rivals-scripts/",
+        slug = "rivals-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Rivals script – (Lemon Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/c8c09494b048a1fc6a4dc43bec1f3713.lua\"))()",
+            },
+            {
+                title = "Kiciahook Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "Duck Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/HexFG/duckhub/refs/heads/main/loader.lua'))()",
+            },
+            {
+                title = "Solix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/debunked69/solixloader/refs/heads/main/solix%20v2%20new%20loader.lua\"))()",
+            },
+            {
+                title = "Nicky-Byte Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/nicky-byte/0212hub/refs/heads/main/main.lua\"))()",
+            },
+            {
+                title = "Nova Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/vividx07/nova-softworks/refs/heads/main/loader.lua\",true))()",
+            },
+            {
+                title = "Z3US Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/blackowl1231/Z3US/refs/heads/main/main.lua\"))()",
+            },
+            {
+                title = "Zenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/LookP/Roblox/refs/heads/main/ZenithHUB%20%7C%20Rivals\"))()",
+            },
+            {
+                title = "Dark Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/25Dark25/Scripts/refs/heads/main/key-script\"))()",
+            },
+            {
+                title = "Instakill hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/jopanegra87dancing/RIVALS/main/main.lua'))()",
+            },
+            {
+                title = "booboo29rampageog",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/booboo29rampageog/RIVALS/main/main.lua'))()",
+            },
+            {
+                title = "Ember Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/scripter66/EmberHub/refs/heads/main/Rivals.lua\"))()",
+            },
+            {
+                title = "W1Ite Game hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/W1lteGameYT/W1lteGame-Hub-Best-Rivals-Aimbot-Script-NO-KEY-/refs/heads/main/script\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/anime-vanguards-scripts/",
+        slug = "anime-vanguards-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Anime Vanguards script – (Speed Hub X)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Anime%20Vanguards.lua\"))()",
+            },
+            {
+                title = "NovaPatch Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CHASEAAAA/vanguard/refs/heads/main/.lua\",true))()",
+            },
+            {
+                title = "Solix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua\"))()",
+            },
+            {
+                title = "Ather Hub",
+                has_key = true,
+                code = "--DISCORD please join: https://discord.gg/n86w8P8Evx
+-- FOR SOLARA (ADD THIS, it is a safety measure so disable at your own risk): _G.SkipExecutorBypass = true
+script_key = \"Add key here to auto verify\"
+loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua\"))()",
+            },
+            {
+                title = "Godor Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/godor1010/godor/refs/heads/main/_anime_vanguards'))()",
+            },
+            {
+                title = "Nousigi Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://nousigi.com/loader.lua\"))()",
+            },
+            {
+                title = "Blue Red Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Alexcirer/Alexcirer/refs/heads/main/vs21\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/brainrot-evolution-scripts/",
+        slug = "brainrot-evolution-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Brainrot Evolution script – (Banana Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/diepedyt/bui/refs/heads/main/BananaHubLoader.lua\"))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Space Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "PulsarX Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Estevansit0/KJJK/refs/heads/main/PusarX-loader.lua\"))()",
+            },
+            {
+                title = "Pulse Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Chavels123/Loader/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "Sigma Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/d82a88737d4c79e00995ca9384bd098e.lua\"))()",
+            },
+            {
+                title = "Laws Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hehehe9028/LAWSHUB-brainrot-evolution/refs/heads/main/LAWSHUB%20brainrot%20evolution\"))()",
+            },
+            {
+                title = "Nexis Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/holdergit/Key-System/refs/heads/main/Nexis%20Hub\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/drill-digging-simulator-scripts/",
+        slug = "drill-digging-simulator-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Drill Digging Simulator script – (Balta Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Baltazarexe/Drill-Digging-Simulator/main/Drill%20Digging%20Simulator.lua\"))()",
+            },
+            {
+                title = "Drill Loop",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/script321321/scripts/main/125723653259639\"))()",
+            },
+            {
+                title = "Tora IsMe",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/DrillDigging\"))()",
+            },
+            {
+                title = "Edit Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/editlt/scriptexploot/refs/heads/main/drill_digging_simulator.lua\"))()",
+            },
+            {
+                title = "Digit Hub",
+                has_key = false,
+                code = "getgenv().AutoGetCash = true
+getgenv().AutoGotoWin = true
+getgenv().AutoBuyDrill = true
+getgenv().AutoBuyPets = false -- very laggy and constantly tries to buy every pet egg
+
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/sulfu3r/Newer-Pentest-Projects/refs/heads/main/Shit%20Fun%20Projects/Drill%20Digging%20Simulator.luau\"))()",
+            },
+            {
+                title = "PineCodeReborn",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Veyronxs/Drill-Digging-Simulator/refs/heads/main/Keyless\"))()",
+            },
+            {
+                title = "Salvatore hub",
+                has_key = false,
+                code = "getgenv().AutoGetCash = true
+getgenv().AutoGotoWin = true
+getgenv().AutoBuyDrill = true
+getgenv().AutoBuyPets = false -- very laggy and constantly tries to buy every pet egg
+
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/sulfu3r/Newer-Pentest-Projects/refs/heads/main/Shit%20Fun%20Projects/Drill%20Digging%20Simulator.luau\"))()",
+            },
+            {
+                title = "Polleser Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Thebestofhack123/2.0/refs/heads/main/Scripts/DDS\", true))()",
+            },
+            {
+                title = "Lumin Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://lumin-hub.lol/loader.lua\",true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/build-a-zoo-scripts/",
+        slug = "build-a-zoo-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Build a Zoo script – (Twvz Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ZhangJunZ84/twvz/refs/heads/main/buildazoo.lua\"))()",
+            },
+            {
+                title = "Zebux Hub",
+                has_key = false,
+                code = "-- https://discord.gg/ceAb3N7j5n
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ZebuxHub/Main/refs/heads/main/BuildAZoo.lua\"))()",
+            },
+            {
+                title = "Polluted Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/59181ae583fe3b51a97d7d7e769d857e.lua\"))()",
+            },
+            {
+                title = "Elite Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/d787e0d3415663864c515bc513ed4637.lua\"))()",
+            },
+            {
+                title = "Kali Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://kalihub.xyz/loader.lua'))()",
+            },
+            {
+                title = "Salvatore hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mazino45/main/refs/heads/main/MainScript.lua\"))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "DoDo hub",
+                has_key = true,
+                code = "script_key=\"put key here\";
+loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/a05bf6f6f0615db868a8d25c1f1c67b2.lua\"))()",
+            },
+            {
+                title = "Venuz Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/x2Kotaro/Venuz-hub/main/Loader.lua'))()",
+            },
+            {
+                title = "Demi Godz Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/4e4eb2403829fcabbc0c14f7dc3657d3.lua\"))()",
+            },
+            {
+                title = "Celestine Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CelestineHub/C-Hub/refs/heads/main/BuildAZoo.lua\"))()",
+            },
+            {
+                title = "Swag Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/IcantAffordSynapse/swaghub/refs/heads/main/swagmain.lua\"))()",
+            },
+            {
+                title = "Peanut X",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/TokyoYoo/gga2/refs/heads/main/Trst.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/make-a-army-scripts/",
+        slug = "make-a-army-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Make a Army script – (INF money)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/MakeaArmy\"))()",
+            },
+            {
+                title = "MB Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Matej1912/Make-a-Army-/refs/heads/main/Script\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/cut-trees-scripts/",
+        slug = "cut-trees-scripts",
+        scripts = {
+            {
+                title = "Cut Trees script – (INF money)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MortyMo22/roblox-scripts/refs/heads/main/Cut%20Trees.lua\"))()",
+            },
+            {
+                title = "ApocScripts",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastefy.app/uTS1ip5a/raw\"))()",
+            },
+            {
+                title = "INF Money",
+                has_key = true,
+                code = "script_key=\"yourkey\";
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ArceusXArchivezx/Game/refs/heads/main/ArceusXArchive\"))()",
+            },
+            {
+                title = "Konglomerate Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Konglomerate/Script/Main/Loader\"))()",
+            },
+            {
+                title = "Rax Scripts",
+                has_key = true,
+                code = "getgenv().Settings = {
+	chopFrequency = 1.3, -- how long to wait for every tree to get chopped, make the time a little higher if lag is experienced.
+	chestESP = true,
+	autoCollectChests = true,
+    speedboost = 33,
+    jumpboost = 10,
+}
+
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/raxscripts/LuaUscripts/refs/heads/main/CutTrees.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/azure-latch-scripts/",
+        slug = "azure-latch-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Azure Latch script",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ghostofcelleron/Celeron/refs/heads/main/Azure%20Latch%20(OS)\",true))()",
+            },
+            {
+                title = "Napoleon Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/src.lua\"))()",
+            },
+            {
+                title = "Rinns Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code\"))()",
+            },
+            {
+                title = "Fake Azure Latch Style VFX and Goalbound Style VFX",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/AlperPro/Roblox-Scripts/refs/heads/main/LloydHUBLoader.lua'))()",
+            },
+            {
+                title = "mokaEZF hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/mokaEZF/Ez/refs/heads/main/aura'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/pixel-blade-scripts/",
+        slug = "pixel-blade-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Pixel Blade script – (Pollute Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/12dcc7533e76814388269888ef9ad402.lua\"))()",
+            },
+            {
+                title = "Kill all and auto room",
+                has_key = false,
+                code = "toclipboard([[
+    https://discord.gg/bKPRWatprk
+]])
+local player = game:GetService(\"Players\").LocalPlayer
+local replicatedStorage = game:GetService(\"ReplicatedStorage\")
+local runService = game:GetService(\"RunService\")
+local roomcheck = false
+local autofarm = false
+local autoupgrade = false
+local killall = false
+local library = loadstring(game:HttpGet((\"https://raw.githubusercontent.com/theneutral0ne/wally-modified/refs/heads/main/wally-modified.lua\")))()
+local window = library:CreateWindow('Credit: Neutral')
+window:Section('Auto Farm')
+window:Toggle(\"Auto Farm\",{},function(value)
+autofarm = value
+end)
+window:Section('Stuff')
+window:Toggle(\"Kill All\",{},function(value)
+killall = value
+end)
+window:Button(\"Remove upgrade ui\",function(value)
+if player.PlayerGui.gameUI.upgradeFrame.Visible then player.PlayerGui.gameUI.upgradeFrame.Visible = false end
+if game.Lighting:FindFirstChild(\"deathBlur\") then game.Lighting.deathBlur:Destroy() end
+if game.Lighting:FindFirstChild(\"screenBlur\") then game.Lighting.screenBlur:Destroy() end
+end)
+
+local function room(character)
+    for _,v in workspace:GetDescendants() do
+        if v.ClassName == \"ProximityPrompt\" and v.Enabled then
+            character.HumanoidRootPart.CFrame = v.Parent.CFrame
+            fireproximityprompt(v)
+            task.wait(0.1)
+        end
+    end
+    for _,v in workspace:GetChildren() do   
+        if v:FindFirstChild(\"ExitZone\") then
+            character.HumanoidRootPart.CFrame = v.ExitZone.CFrame
+            task.wait(0.25)
+            character.HumanoidRootPart.CFrame = CFrame.new(v:GetPivot().Position)
+            task.wait(0.25)
+        end
+    end
+    roomcheck = false
+end
+
+runService.RenderStepped:Connect(function(delta)
+    local character = player.Character
+    if character then
+        if autofarm then
+            if roomcheck == false then
+                roomcheck = true
+                room(character)
+            end
+        end
+        if killall then
+            for _,v in workspace:GetChildren() do   
+                if v:FindFirstChild(\"Humanoid\") or v:FindFirstChildWhichIsA(\"Model\") and v:FindFirstChildWhichIsA(\"Model\"):FindFirstChild(\"Humanoid\") then
+                    if v:GetAttribute(\"hadEntrance\") and v:FindFirstChild(\"Health\") then
+                        replicatedStorage.remotes.useAbility:FireServer(\"tornado\")
+                        replicatedStorage.remotes.abilityHit:FireServer(if v:FindFirstChild(\"Humanoid\") then v:FindFirstChild(\"Humanoid\") else v:FindFirstChildWhichIsA(\"Model\"):FindFirstChild(\"Humanoid\"),math.huge,{[\"stun\"] = {[\"dur\"] = 1}})
+                    end
+                end
+            end
+        end
+    end
+end)",
+            },
+            {
+                title = "TexRBLX Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/TexRBLX/Roblox-stuff/refs/heads/main/pixel%20blade/final.lua\"))()",
+            },
+            {
+                title = "Chiyo Hub",
+                has_key = true,
+                code = "script_key=\"KEY\";
+loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/f6694685700f6fb4c09bb09771a50980.lua\"))()",
+            },
+            {
+                title = "Kali Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://kalihub.xyz/loader.lua'))()",
+            },
+            {
+                title = "Aeonic Hub",
+                has_key = true,
+                code = "script_key = \"PASTEYOURKEYHERE\"
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mazino45/main/refs/heads/main/MainScript.lua\"))()
+-- https://discord.gg/mbyHbxAhhT\",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/anime-last-stand-scripts/",
+        slug = "anime-last-stand-scripts",
+        scripts = {
+            {
+                title = "Anime Last Stand script – (Imp Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua\"))()",
+            },
+            {
+                title = "Byorl Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Byorl/ALS-Scripts/refs/heads/main/ALS%20Halloween%20UI.lua\"))()",
+            },
+            {
+                title = "Demonic Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/7Fa0T52n\",true))()",
+            },
+            {
+                title = "Buang Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/buang5516/buanghub/main/BUANGHUB.lua\"))()",
+            },
+            {
+                title = "OMG hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua\"))()",
+            },
+            {
+                title = "MoneyMaker BBBG Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://cdn.authguard.org/virtual-file/391e9350aec448aab7ed0c24c07aeb29\"))()",
+            },
+            {
+                title = "Imp Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/jujutsu-seas-scripts/",
+        slug = "jujutsu-seas-scripts",
+        scripts = {
+            {
+                title = "Jujutsu Seas script – (Star Stream)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/starstreamowner/StarStream/refs/heads/main/Hub\"))()",
+            },
+            {
+                title = "NS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OhhMyGehlee/sh/refs/heads/main/a\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/racket-rivals-scripts/",
+        slug = "racket-rivals-scripts",
+        scripts = {
+            {
+                title = "Racket Rivals script – (Legend Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/starstreamowner/StarStream/refs/heads/main/Hub\"))()",
+            },
+            {
+                title = "SunoScripting Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/SinoScripting/-OP-Racket-Rivals-AUTOFARM-BOT-Script.-Farm-YEN-while-AFK/refs/heads/main/Sinorackeetering.lua\"))()",
+            },
+            {
+                title = "Karbid Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/karbid-dev/Karbid-Hub-Luna/refs/heads/main/Key_System.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/raise-animals-scripts/",
+        slug = "raise-animals-scripts",
+        scripts = {
+            {
+                title = "NO KEY Raise Animals script – (ATG Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/ATGFAIL/ATGHub/main/Raise-Animals.lua'))()",
+            },
+            {
+                title = "Kron hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/DevKron/Kron_Hub/refs/heads/main/version_1.0'))(u0022u0022)",
+            },
+            {
+                title = "DJ Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/3c911e3d1e02d80e890b30bfcda36d5a751d9cba122677fc5a4daee26c8c19f0/download\"))()",
+            },
+            {
+                title = "Dodo hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/dodohubx-rgb/dodohub/refs/heads/main/loader.luau\"))()",
+            },
+            {
+                title = "Onastrollbunch",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/onastrollbunch/Raise-Animals/main/main.lua'))()",
+            },
+            {
+                title = "Onastrollbunch",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://ethereon.downy.press/Key-System.lua\"))()",
+            },
+            {
+                title = "Jinx Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/stormskmonkey/JinkX/main/Loader.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/build-ur-base-scripts/",
+        slug = "build-ur-base-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Build ur Base script – (Auto Buy)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Ecohub-1/Ecohub-1/refs/heads/main/bab.lua\"))()",
+            },
+            {
+                title = "Auto Buy tower",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://gist.githubusercontent.com/user75335836/5f8292a553251dae4bd4276e9e7c79bb/raw/431f3225312f0f116f8722c16df0d6f791f2b295/gistfile1.txt\"))()",
+            },
+            {
+                title = "Polluted Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/0f8751b134191b33890f77ac3be49dbc.lua\"))()",
+            },
+            {
+                title = "Circus Auto Menu",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/duydai458/Build-ur-base/refs/heads/main/V1%20event\"))()",
+            },
+            {
+                title = "ApocScripts",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastefy.app/B0QI1FIJ/raw\"))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Pulse Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Chavels123/Loader/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "EZ Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/8e08cda5c530a6529a71a14b94a33734eccc870e9f28220410eb21d719f66da9/download\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/murder-mystery-2-scripts/",
+        slug = "murder-mystery-2-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Murder Mystery 2 / MM2 script – (MoonWare)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/littl3prince/Moon/main/Moon_V1\"))()",
+            },
+            {
+                title = "Flint MM2 ESP",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Chxnged/2/refs/heads/main/hub.lua\"))()",
+            },
+            {
+                title = "NO KEY Greasy Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/givemealuck1/GreasyScriptsFarm/refs/heads/main/GreasyFarmMM2\"))()",
+            },
+            {
+                title = "Moondiety Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/m00ndiety/Moondiety/refs/heads/main/Loader'))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Koronis Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://koronis.xyz/hub.lua\"))()",
+            },
+            {
+                title = "Monkey Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://monkeyhub.vercel.app/scripts/loader.lua\",true))()",
+            },
+            {
+                title = "Ather Hub",
+                has_key = true,
+                code = "--DISCORD please join: https://discord.gg/n86w8P8Evx
+script_key = \"Add key here to auto verify\"
+loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua\"))()",
+            },
+            {
+                title = "Solix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/the-strongest-battlegrounds-scripts/",
+        slug = "the-strongest-battlegrounds-scripts",
+        scripts = {
+            {
+                title = "KEYLESS The Strongest Battlegrounds script – (Pxntxrez Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Pxntxrez/NULL/refs/heads/main/obfuscated_script-1753991814596.lua\"))()",
+            },
+            {
+                title = "NO KEY XDev Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Emerson2-creator/Scripts-Roblox/refs/heads/main/XDevHubBeta.lua\"))()",
+            },
+            {
+                title = "NO KEY Phantasm Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua'))()",
+            },
+            {
+                title = "Speed Hub X",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua\", true))()",
+            },
+            {
+                title = "D3D Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Noro-ded/TSBMain/refs/heads/main/MAIND3DHUB!\", true))()",
+            },
+            {
+                title = "Kukuri Client",
+                has_key = true,
+                code = "-- When you execute the script, Wait 4-5 seconds to load
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Mikasuru/Arc/refs/heads/main/Arc.lua\"))()",
+            },
+            {
+                title = "ChillX Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/RomaNotgay/ChillX-/main/77_ZZ09N10KL6ZC.lua'))()",
+            },
+            {
+                title = "Forge Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua\"))()",
+            },
+            {
+                title = "Solix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://pastebin.com/raw/xrMu0WE2'))()",
+            },
+            {
+                title = "Nicuse Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://loader.nicuse.xyz\"))()",
+            },
+            {
+                title = "Faldes X Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Artss1/Faldes_X/refs/heads/main/Faldes_X%20TSB'))()",
+            },
+            {
+                title = "Return Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/2xrW/return/refs/heads/main/hub\"))()",
+            },
+            {
+                title = "DOWN Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pandadevelopment.net/virtual/file/6b66825b2647d618\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/slap-battles-scripts/",
+        slug = "slap-battles-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Slap Battles script – (VinQ Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/vinqDevelops/erwwefqweqewqwe/refs/heads/main/lol.txt'))()",
+            },
+            {
+                title = "NO KEY Get all Badge Gloves",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CatsScripts/CatsRobloxScripts/main/AllBadgeGloves.luau\"))()",
+            },
+            {
+                title = "NO KEY Ultimate Badge Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/UltimateBadgeHub/main/main.lua'))()",
+            },
+            {
+                title = "FOGOTY Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/FOGOTY/slap-god/main/script\"))()",
+            },
+            {
+                title = "Gooey Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Blobmanner12/GooeyLoader/refs/heads/main/Loader\",true))()",
+            },
+            {
+                title = "Forge Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua\"))()",
+            },
+            {
+                title = "Vault Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Loolybooly/TheVaultScripts/refs/heads/main/FullScript\"))()",
+            },
+            {
+                title = "Islockeddxd hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/islockeddxd/slapbattle/refs/heads/main/main\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/sols-rng-scripts/",
+        slug = "sols-rng-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Sols RNG script – (Demonic Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua\",true))()",
+            },
+            {
+                title = "NO Key Discord Stats Webhook",
+                has_key = false,
+                code = "_G.WebhookUrl = \"Discord Webhook Url\"
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Celesth/Stellarium/main/roblox/Utility/Protected_1652600242814224.lua.txt\"))()
+task.wait(1)
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Celesth/Stellarium/main/roblox/SolsRNG/source.luau\"))()
+task.wait(1)
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Celesth/Stellarium/main/roblox/Utility/PlayerUtils.luau\"))()",
+            },
+            {
+                title = "LegendHandles Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/LHking123456/n4dgW8TF7rNyL/refs/heads/main/Sols'))()",
+            },
+            {
+                title = "HOHO Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI\"))()",
+            },
+            {
+                title = "Beecon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/BaconBossScript/BeeconHub/main/BeeconHub\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/anime-rangers-x-scripts/",
+        slug = "anime-rangers-x-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Anime Rangers X script – (L-hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Frxser Store",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/XeFrostz/ANM-Ranger-X/refs/heads/main/RangerX.lua'))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "AnimeWare",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/KAJUU490/c9/refs/heads/main/jumapell2\"))()",
+            },
+            {
+                title = "Lix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Lixtron/Hub/refs/heads/main/loader\"))()",
+            },
+            {
+                title = "Beecon Hub",
+                has_key = true,
+                code = "script_key=\"YOUR KEY\";
+loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/323718949a0352c3f69d25f28c036222.lua\"))()",
+            },
+            {
+                title = "Celestara",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/KitsunaCh/Celestara-Hub/refs/heads/main/AnimeRangerX.lua\"))()",
+            },
+            {
+                title = "WSJ Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/NhatMinhVNQ/nm.wsj/refs/heads/main/WSJ-HUB.TD.lua\"))()",
+            },
+            {
+                title = "Nousigi Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://nousigi.com/loader.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/blue-lock-rivals-scripts/",
+        slug = "blue-lock-rivals-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Blue Lock Rivals script – (Nevan Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Nevan32/BLUE-LOCK-RIVALS/refs/heads/main/Loader\"))()",
+            },
+            {
+                title = "Ather Hub",
+                has_key = true,
+                code = "--Discord: https://discord.gg/x4ux7pUVJu
+script_key = \"Add key here to auto verify\"
+loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua\"))()",
+            },
+            {
+                title = "Nexus Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CrazyHub123/NexusHubRevival/refs/heads/main/Main.lua\"))()",
+            },
+            {
+                title = "XZuyaX Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/XZuuyaX/XZuyaX-s-Hub/refs/heads/main/Main.Lua\", true))()",
+            },
+            {
+                title = "SOULS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/SPQT6v5J\"))()",
+            },
+            {
+                title = "IMP Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua\"))()",
+            },
+            {
+                title = "Crazy Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hehehe9028/HOKALAZA-BLR/refs/heads/main/BLR%20HOKALAZA\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/evade-scripts/",
+        slug = "evade-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Evade script – (Mid-Journey hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JScripter-Lua/Mid-Journey_Open-Source/refs/heads/main/Evade%20Lag%20Free%20Test.lua\"))()",
+            },
+            {
+                title = "CLY",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()",
+            },
+            {
+                title = "Monkey hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://monkeyhub.vercel.app/scripts/loader.lua\",true))()",
+            },
+            {
+                title = "SpeedHax",
+                has_key = true,
+                code = "--- Keybind: K
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/thesigmacorex/RobloxScripts/main/speedhax\"))()",
+            },
+            {
+                title = "AussieWIRE",
+                has_key = true,
+                code = "loadstring(game:HttpGet(request({Url='https://aussie.productions/script'}).Body))()",
+            },
+            {
+                title = "Imp Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua'))()",
+            },
+            {
+                title = "Draconic Hub X",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Nyxarth910/Draconic-Hub-X/refs/heads/main/files/Evade/Overhaul.lua'))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "zReal-King",
+                has_key = true,
+                code = "pcall(loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua')))",
+            },
+            {
+                title = "Nex Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader\", true))()",
+            },
+            {
+                title = "Forbidden Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Robloxhacker3/Forbidden-hub-Evade/refs/heads/main/Overhaul/evade.lua\",true))()",
+            },
+            {
+                title = "Neox Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/loader\", true))()",
+            },
+            {
+                title = "Whakizashi Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/scv8contact-cpu/Whakizashi-hub-x/refs/heads/main/WhakizashiHubX-Evade\"))()",
+            },
+            {
+                title = "Return Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/2xrW/return/refs/heads/main/hub\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/fisch-scripts/",
+        slug = "fisch-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Fisch script – (Rip V2 Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/Fisch.lua\"))()",
+            },
+            {
+                title = "Soluna Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://soluna-script.vercel.app/fisch.lua\",true))()",
+            },
+            {
+                title = "Desire Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/welomenchaina/Desire-Hub./refs/heads/main/Desire%20Hub%20Fisch%20Script\",true))()",
+            },
+            {
+                title = "Nat Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua\"))();",
+            },
+            {
+                title = "Polleser Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Thebestofhack123/2.0/refs/heads/main/Scripts/Fisch\", true))()",
+            },
+            {
+                title = "Moma Hub",
+                has_key = true,
+                code = "(loadstring or load)(game:HttpGet(\"https://raw.githubusercontent.com/n3xkxp3rl/Moma-Hub/refs/heads/main/Loader.lua\"))()",
+            },
+            {
+                title = "21 Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://twentyonehub.vercel.app\"))()",
+            },
+            {
+                title = "Forge Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua\"))()",
+            },
+            {
+                title = "Rail Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AZX0OZ/keyrh/refs/heads/main/RAILhub\"))()",
+            },
+            {
+                title = "Fryzer hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/FryzerHub/V/refs/heads/main/Fisch\"))()",
+            },
+            {
+                title = "MadBuk hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Nobody6969696969/Madbuk/refs/heads/main/loader.lua\", true))()",
+            },
+            {
+                title = "Vex Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/cde8084e2dd57e02d9cd8cb292d44a85.lua\"))()",
+            },
+            {
+                title = "Arceny CC hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://arceney.cc/cdn/loader.luau\"))();",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/chop-chop-scripts/",
+        slug = "chop-chop-scripts",
+        scripts = {},
+    },
+    {
+        page_url = "https://robscript.com/anime-eternal-scripts/",
+        slug = "anime-eternal-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Anime Eternal script – (AI Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AIHub091/AI-Hub/refs/heads/main/Anime-Eternal/Script.lua\"))()",
+            },
+            {
+                title = "Aeonic Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mazino45/main/refs/heads/main/MainScript.lua\"))()",
+            },
+            {
+                title = "NX Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/NX-Script/Nx_Hub/refs/heads/main/Anime_Eternal\"))()",
+            },
+            {
+                title = "AnimeWare",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/KAJUU490/jumapell/refs/heads/main/new\"))()",
+            },
+            {
+                title = "NS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OhhMyGehlee/sh/refs/heads/main/a\"))()",
+            },
+            {
+                title = "Imp Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua\"))()",
+            },
+            {
+                title = "Macarrao Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/rystery/privatehub/refs/heads/main/README.md\"))()",
+            },
+            {
+                title = "Crazy Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hehehe9028/HOKA-ANIME-ETERNAL/refs/heads/main/HOKALAZA\"))()",
+            },
+            {
+                title = "JinkX Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/stormskmonkey/JinkX/main/Loader.lua\"))()",
+            },
+            {
+                title = "BAR1S Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/jnsphFRH\"))()",
+            },
+            {
+                title = "Prestine Scripts",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/PrestineScripts/Loader/refs/heads/main/Main-Loader\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/dungeon-heroes-scripts/",
+        slug = "dungeon-heroes-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Dungeon Heroes script – (XTreme Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Xtreme-Hubkink0s/dungeoheros.lua.u/refs/heads/main/script.luau\"))()",
+            },
+            {
+                title = "Valor Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/eselfins31/Valor-Hub/main/Dungeon%20Heroes/Unified_protected.lua\", true))()",
+            },
+            {
+                title = "Aeonic Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mazino45/main/refs/heads/main/MainScript.lua\"))()",
+            },
+            {
+                title = "Danang Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastefy.app/9PkSi6nM/raw\"))()",
+            },
+            {
+                title = "Lotus Ware",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastefy.app/vaEQRglj/raw\"))()",
+            },
+            {
+                title = "Ash Labs",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://ashlabs.me/api/game?name=Dungeon-Heroes.lua\", true))()",
+            },
+            {
+                title = "NS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OhhMyGehlee/Roes/refs/heads/main/her\"))()",
+            },
+            {
+                title = "Dendrite CC",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Dendrite-cc/Dendrite.cc/refs/heads/main/Loader\"))()",
+            },
+            {
+                title = "H4xScripts",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/brookhaven-rp-scripts/",
+        slug = "brookhaven-rp-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Brookhaven RP script – (SP Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/as6cd0/SP_Hub/refs/heads/main/Brookhaven\"))()",
+            },
+            {
+                title = "Braxus Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Lindao10/BRUXUS-HUB/refs/heads/main/BRUXUS%20HUB.LUA\"))()",
+            },
+            {
+                title = "RedZ Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastefy.app/9OoVFBCU/raw\"))()",
+            },
+            {
+                title = "Brookhaven Admin script",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://gist.githubusercontent.com/TreeByte403/9bd0c89931954270681c454dd5728c0c/raw/ef264adbaf83486e785d91be748710e3e512938b/brookhaven.lua\"))()",
+            },
+            {
+                title = "Dragon Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/paoplays958-coder/update/refs/heads/main/update\"))()",
+            },
+            {
+                title = "Laws Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hehehe9028/LAWSHUB-brookhaven/refs/heads/main/LAWSHUB%20Brookhaven\"))()",
+            },
+            {
+                title = "Project Santerium",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ProjectSunterium/Project-Sunterium/refs/heads/main/Project%20Sunterium\"))()",
+            },
+            {
+                title = "Salvatore hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/RFR-R1CH4RD/Loader/main/Salvatore.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/blox-loot-scripts/",
+        slug = "blox-loot-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Blox Loot script",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://github.com/S1mpleXDev/5-Min-Projects/raw/refs/heads/main/%5BV3%5D%20Blox%20Loot%20part%202\",true))()",
+            },
+            {
+                title = "Tora Is Me",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/BloxLoot\"))()",
+            },
+            {
+                title = "Kali Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://kalihub.xyz/loader.lua'))()",
+            },
+            {
+                title = "LuckyWinner hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MortyMo22/roblox-scripts/refs/heads/main/BloxLoot\"))()",
+            },
+            {
+                title = "Karbid Dev Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/karbid-dev/Karbid-Hub-Luna/refs/heads/main/Key_System.lua\"))()",
+            },
+            {
+                title = "Holdik Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Prarod/bloxloot/refs/heads/main/ffff'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/dont-wake-the-brainrots-scripts/",
+        slug = "dont-wake-the-brainrots-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Dont Wake the Brainrots script – Tora IsMe",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/DontWaketheBrainrots\"))()",
+            },
+            {
+                title = "Pulse Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Chavels123/Loader/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "Sapphire Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastefy.app/uABi7rKf/raw\"))()",
+            },
+            {
+                title = "Pulsar X Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Estevansit0/KJJK/refs/heads/main/PusarX-loader.lua\"))()",
+            },
+            {
+                title = "KarbidDev hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/karbid-dev/Karbid/main/zpp0kogh0t\"))()",
+            },
+            {
+                title = "StarStream hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/tls123account/StarStream/refs/heads/main/Hub\"))()",
+            },
+            {
+                title = "Raxx hub",
+                has_key = true,
+                code = "getgenv().Settings = {
+    stealThreshold = 100, -- this is the minimum amount a brainrot must generate every second for it to be valid to steal
+	instantProximityPrompts = true, -- if true, proximity prompts will be activated instantly
+    speedboost = 33,
+    jumpboost = 12,
+    AutoCollect = true, -- if true, cash will be auto collected
+    AutoCollectInterval = 60, -- how often (in seconds) to auto collect cash
+}
+
+loadstring(game:HttpGet(\"https://pastebin.com/raw/WpkdiWGM\",true))()",
+            },
+            {
+                title = "Crazy Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hehehe9028/DONT-WAKE-THE-BRAINROT-/refs/heads/main/HOKALAZA\"))()",
+            },
+            {
+                title = "Mystrix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ummarxfarooq/mystrix-hub/refs/heads/main/dont%20wake%20the%20brainrots\"))()",
+            },
+            {
+                title = "ATG Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ATGFAIL/ATGHub/main/Dont-Wake-the-Brainrots.lua\"))()",
+            },
+            {
+                title = "Kali Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://kalihub.xyz/loader.lua'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/anime-card-clash-scripts/",
+        slug = "anime-card-clash-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Anime Card Clash script – Tora IsMe",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Threeeps/acc/main/script\"))()",
+            },
+            {
+                title = "Rosel4k",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/rosel4k/scripts/refs/heads/main/AnimeCardClash.lua'))()",
+            },
+            {
+                title = "Hina Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Threeeps/acc/main/script\"))()",
+            },
+            {
+                title = "Ashlabs",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://ashlabs.me/api/game?name=Anime-card-slash.lua\", true))()",
+            },
+            {
+                title = "Grafeno Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/TIOXSAN/ANIME-CARD-CLASH/refs/heads/main/scriptAUTO\"))()",
+            },
+            {
+                title = "NS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OhhMyGehlee/cas/refs/heads/main/h\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/something-evil-will-happen-scripts/",
+        slug = "something-evil-will-happen-scripts",
+        scripts = {
+            {
+                title = "KEYLESS something evil will happen script",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/exodus-lua/scripts/refs/heads/main/sewhloader.lua\",true))()",
+            },
+            {
+                title = "SEWH Win",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/FOXTROXHACKS/Roblox-Scripts/refs/heads/main/SEWH-Win-AF.lua\"))()",
+            },
+            {
+                title = "SEWH God",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/SEWH.lua\"))()",
+            },
+            {
+                title = "ZZZ Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/zzxzsss/zxs/refs/heads/main/xxzz\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/adopt-me-scripts/",
+        slug = "adopt-me-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Adopt Me script – Ragesploit",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Ragesploit-x/Ragesploit/refs/heads/main/MainScript/ShitVersion.lua\"))();",
+            },
+            {
+                title = "Niburu Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Niburu52/hub/refs/heads/main/Adopt%20Me!'))()",
+            },
+            {
+                title = "billieroblox",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/billieroblox/jimmer/main/77_HAJ07IP.lua'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/jujutsu-shenanigans-scripts/",
+        slug = "jujutsu-shenanigans-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Jujutsu Shenanigans script",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/NotEnoughJack/localplayerscripts1/refs/heads/main/script'))()",
+            },
+            {
+                title = "Aimlock",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/egehanqq/JujutsuW.I.P/refs/heads/main/Jujutsu\"))()",
+            },
+            {
+                title = "Custom move set",
+                has_key = false,
+                code = "--[[
+join discord server plss
+discord.gg/soulshatters
+--]]
+getgenv().Rain = true
+getgenv().Move5 = true 
+getgenv().Move6 = true 
+getgenv().Move7 = true
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Reapvitalized/JJS/refs/heads/main/Lindwurm.lua'))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Nexor Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/NexorHub/Games/refs/heads/main/Universal/Scripts.lua'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/hypershot-scripts/",
+        slug = "hypershot-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Hypershot script – (XVC Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/XVCHub/Games/main/HyperShot\"))()",
+            },
+            {
+                title = "Danangori hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/danangori/Hypershots/refs/heads/main/V2-2025\"))()",
+            },
+            {
+                title = "Nexis Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/boringcat4646/Nexis-Hub/refs/heads/main/Key%20System\"))()",
+            },
+            {
+                title = "ComboWick Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/checkurasshole/Script/refs/heads/main/IQ'))();",
+            },
+            {
+                title = "Haunt Hub",
+                has_key = true,
+                code = "local key = 'scriptkey'
+
+shared = shared or {}
+shared.__KEY_INPUT = key
+
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/n1hitt/haunt.lol/refs/heads/main/rewind\"))(",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/steal-a-fish-scripts/",
+        slug = "steal-a-fish-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Steal A Fish script – (Tora IsMe Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/StealAFish\"))()",
+            },
+            {
+                title = "Combo Wick",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/checkurasshole/Script/refs/heads/main/IQ'))();",
+            },
+            {
+                title = "Klinac Hub",
+                has_key = true,
+                code = "local code = game:HttpGet(
+    'https://raw.githubusercontent.com/Klinac/scripts/main/steal_a_fish.lua'
+)
+loadstring(code)()",
+            },
+            {
+                title = "Vault Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/pqdZNZJe\"))()",
+            },
+            {
+                title = "Nexis Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/basedgoons/Nexis-Hub-Initial/refs/heads/main/Initial%20Nexis%20Hub%20Redirect\"))()",
+            },
+            {
+                title = "Ash Labs",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://ashlabs.me/api/game?name=steal-a-fish.lua\", true))()",
+            },
+            {
+                title = "Pulsar X hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Estevansit0/KJJK/refs/heads/main/PusarX-loader.lua\"))()",
+            },
+            {
+                title = "Sapphire Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastefy.app/2aktLkT3/raw\"))()",
+            },
+            {
+                title = "Xenith hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/vexalotl/Cybese/refs/heads/main/main\"))()",
+            },
+            {
+                title = "Xenith hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/vexalotl/Cybese/refs/heads/main/main\"))()",
+            },
+            {
+                title = "Quniyx Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/a1jPSNuH\"))()",
+            },
+            {
+                title = "Tx3hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://tx3hub.vercel.app/loader\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/plants-vs-brainrots-scripts/",
+        slug = "plants-vs-brainrots-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Plants Vs Brainrots script",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://gitlab.com/r_soft/main/-/raw/main/LoadUB.lua\"))()",
+            },
+            {
+                title = "Dupe",
+                has_key = false,
+                code = "script_key = \"xx\"
+loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/fad2e1bf0ec73bd3cca1395400ee4fd0.lua\"))()",
+            },
+            {
+                title = "ED Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Eddy23421/EdHubV4/refs/heads/main/loader\"))()",
+            },
+            {
+                title = "Hokalaza Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hehehe9028/HOKALAZA-plants-vs-brainrot/refs/heads/main/Key\"))()",
+            },
+            {
+                title = "Chiyo Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "Space Hub",
+                has_key = true,
+                code = "script_key=\"KEY\";
+loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/f6694685700f6fb4c09bb09771a50980.lua\"))()",
+            },
+            {
+                title = "Pulse Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Chavels123/Loader/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "Aeonic Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mazino45/main/refs/heads/main/MainScript.lua\"))()",
+            },
+            {
+                title = "Tora IsMe Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/PlantsVsBrainrots\"))()",
+            },
+            {
+                title = "Mad Buk Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Nobody6969696969/Madbuk/refs/heads/main/loader.lua\", true))()",
+            },
+            {
+                title = "Solvex Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Solvexxxx/Scripts/refs/heads/main/SolvexGUI_PVB.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/case-rolling-rng-scripts/",
+        slug = "case-rolling-rng-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Case Rolling RNG script",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://rawscripts.net/raw/Case-Rolling-RNG-NEW-Auto-farm-and-auto-open-cases-45044\"))()",
+            },
+            {
+                title = "Autofarm money, Insta open case",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/GomesPT7/Case-Rolling-RNG/refs/heads/main/v1'))()",
+            },
+            {
+                title = "Fast Autofarm money",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MADMONEYDISTRO/feather-hub/refs/heads/main/case%20rng%20remake%20autofarm\"))()",
+            },
+            {
+                title = "Kasumi Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/kasumichwan/scripts/refs/heads/main/kasumi-hub.lua\"))()",
+            },
+            {
+                title = "Arch Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"http://site33927.web1.titanaxe.com/loader.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/steal-a-drawed-brainrot-scripts/",
+        slug = "steal-a-drawed-brainrot-scripts",
+        scripts = {
+            {
+                title = "Steal a drawed Brainrot script",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/YA83Gsbs\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/noob-army-tycoon-scripts/",
+        slug = "noob-army-tycoon-scripts",
+        scripts = {
+            {
+                title = "MGCactus Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MGCactus/myscripts/main/Noob%20Tycoon%20Army.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/pet-simulator-x-scripts/",
+        slug = "pet-simulator-x-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Pet Simulator X script – (Rafa Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/psx.lua\"))()",
+            },
+            {
+                title = "Qwix Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/TSQ-new/QwiX_PSX/main/PSX_SCRIPT'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/pet-simulator-99-scripts/",
+        slug = "pet-simulator-99-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Pet Simulator 99 script",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/PetSimGames\"))()",
+            },
+            {
+                title = "INFINITYWARE",
+                has_key = true,
+                code = "loadstring(game:HttpGet\"https://raw.githubusercontent.com/bubblescripts/scripts/refs/heads/main/PS99/psgo\")()",
+            },
+            {
+                title = "Zap Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()",
+            },
+            {
+                title = "Despise Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/RJ077SIUU/PS99/main/Gems\"))()",
+            },
+            {
+                title = "Reaper Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/refs/heads/main/loader.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/da-hood-scripts/",
+        slug = "da-hood-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Da Hood script – (Sylex Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/bbbbbbbbbbbbbb121/Roblox/refs/heads/main/Sylex\", true))()",
+            },
+            {
+                title = "UDHL Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/sgysh3nka/UDHL/refs/heads/main/UDHL.lua\"))()",
+            },
+            {
+                title = "Camlock / Aimbot",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/HomeMadeScripts/Camlock-aimlock/main/obf_Wxr6QgzF76G1y2Ch77KN4Zt5Nz0A6GIl61gitv3mRR2t3V103al5d0g26s4KY04r.lua.txt\"))()",
+            },
+            {
+                title = "Zinc Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua\"))()",
+            },
+            {
+                title = "Gots Hub da hood autofarm",
+                has_key = true,
+                code = "_G.AutofarmSettings = {
+    Fps = 60,
+    AttackMode = 2, -- 1 = Click, 2 = Hold
+    Webhook = '', --webhook for stat logging
+    LogInterval = 15,
+    CustomOffsets = { --atm offsets
+        ['atm12'] = CFrame.new(-2, 0, 0),
+        ['atm13'] = CFrame.new(2, 0, 0),
+    },
+    disableScreen = false --broken rn
+}
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/frvaunted/Main/refs/heads/main/DaHoodAutofarm\", true))()",
+            },
+            {
+                title = "Mango Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub\"))()",
+            },
+            {
+                title = "Void Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/coldena/voidhuba/refs/heads/main/voidhubload\",true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/arsenal-scripts/",
+        slug = "arsenal-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Arsenal script – (Lithium Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Sempiller/Lithium/refs/heads/main/main.lua\"))()",
+            },
+            {
+                title = "Vapa v2 hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Nickyangtpe/Vapa-v2/refs/heads/main/Vapav2-Arsenal.lua\", true))()",
+            },
+            {
+                title = "AdvanceTech hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/AdvanceFTeam/Our-Scripts/refs/heads/main/AdvanceTech/Arsenal.lua'))()",
+            },
+            {
+                title = "Weed Client hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ex55/weed-client/refs/heads/main/main.lua\"))()",
+            },
+            {
+                title = "BerTox Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/8ysy7ENG\",true))()",
+            },
+            {
+                title = "Tbao Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal\"))()",
+            },
+            {
+                title = "Stormware Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/FurkUltra/UltraScripts/main/arsenal\",true))()",
+            },
+            {
+                title = "Unbound hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/samerop/unbound-hub/main/unbound-hub.lua\"))()",
+            },
+            {
+                title = "ReCoded hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/vsqzz/Exploits-2025/refs/heads/main/Arsenal.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/build-a-boat-for-treasure-scripts/",
+        slug = "build-a-boat-for-treasure-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Build a Boat for Treasure script – (Rolly hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()",
+            },
+            {
+                title = "W1lte Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/W1lteGameYT/W1lteGame-Hub-Best-Build-A-Boat-For-Treasure-Gold-Block-Farm-Script/refs/heads/main/script\"))()",
+            },
+            {
+                title = "Just autofarm",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/Lyy77rnr\",true))()",
+            },
+            {
+                title = "Auto Builder",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/max2007killer/auto-build-not-limit/main/buildaboatv2obs.txt\"))()",
+            },
+            {
+                title = "Vikai Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/vinxonez/ViKai-HUB/refs/heads/main/babft\"))()",
+            },
+            {
+                title = "ExyXyz hub – Morph characters",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ExyXyz/ExyGantenk/main/ExyBABFT\"))()",
+            },
+            {
+                title = "Rinns hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet\"https://raw.githubusercontent.com/SkibidiCen/MainMenu/main/Code\")()",
+            },
+            {
+                title = "Nov Boat",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/novakoolhub/Scripts/main/Scripts/NovBoatR1\"))()",
+            },
+            {
+                title = "Vex Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/10cxm/loader/refs/heads/main/src\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/prison-life-scripts/",
+        slug = "prison-life-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Prison Life script – (PrisonWare)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt\"))();",
+            },
+            {
+                title = "Flash Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/scripture2025/FlashHub/refs/heads/main/PrisonLife\"))()",
+            },
+            {
+                title = "Nihilize h4x – Teleports",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://pastebin.com/raw/QLtH2v8i'))()",
+            },
+            {
+                title = "Lightux Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(('https://raw.githubusercontent.com/rajrsansraowar/Lightux/main/README.md'),true))()",
+            },
+            {
+                title = "Bowser Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/chriszrk/Bowser-Hub/main/BowserHubCool\", true))()",
+            },
+            {
+                title = "Tiger Admin command console",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/APIApple/Main/refs/heads/main/loadstring\"))()",
+            },
+            {
+                title = "PS Admin",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/VYjdEsc5\"))()",
+            },
+            {
+                title = "Void Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/xwH4sux8\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/military-tycoon-scripts/",
+        slug = "military-tycoon-scripts",
+        scripts = {
+            {
+                title = "Military Tycoon script – (21 Hub)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://twentyonehub.vercel.app\"))()",
+            },
+            {
+                title = "ArnisRblxYt Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ArnisRblxYt/Aimbot-esp-universal-arnisrblxyt-/refs/heads/main/Aimbot%2C%20esp%20universal%20arnisrblxyt\"))()",
+            },
+            {
+                title = "Lucky Winner Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MortyMo22/roblox-scripts/refs/heads/main/MilitaryTycoon\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/car-dealership-tycoon-scripts/",
+        slug = "car-dealership-tycoon-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Car Dealership Tycoon script – (LDS Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/49f02b0d8c1f60207c84ae76e12abc1e.lua'))()",
+            },
+            {
+                title = "Norefrina Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://norepinefrina.com\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/tower-of-hell-scripts/",
+        slug = "tower-of-hell-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Tower of Hell script – (Sprin Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/dqvh/dqvh/main/SprinHub\",true))()",
+            },
+            {
+                title = "RB Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/yyeptech/thebighubs/refs/heads/main/toh.lua\"))()",
+            },
+            {
+                title = "Proxima Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua\"))()",
+            },
+            {
+                title = "GHub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/bleepis/AJ-HUB/refs/heads/main/main\", true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/dead-rails-scripts/",
+        slug = "dead-rails-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Dead Rails script – (Hutao Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://rawscripts.net/raw/Dead-Rails-Alpha-Hutao-hub-FREE-39131\"))()",
+            },
+            {
+                title = "EasyScripts – autofarm bonds",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JustKondzio0010/deadrailsbondfarm/refs/heads/main/dead\", true))()",
+            },
+            {
+                title = "Moondiety",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/m00ndiety/Moondiety/refs/heads/main/Loader'))()",
+            },
+            {
+                title = "Neox Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/99NIFT\"))()",
+            },
+            {
+                title = "Solix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua\"))()",
+            },
+            {
+                title = "Forge Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua\"))()",
+            },
+            {
+                title = "Rift hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://rifton.top/loader.lua\"))()",
+            },
+            {
+                title = "Nexor Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/NexorHub/Games/refs/heads/main/Universal/Scripts.lua'))()",
+            },
+            {
+                title = "SpiderX Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/SpiderScriptRB/Dead-Rails-SpiderXHub-Script/refs/heads/main/SpiderXHub%202.0.txt\"))()",
+            },
+            {
+                title = "AussieWire hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(request({Url='https://aussie.productions/script'}).Body))()",
+            },
+            {
+                title = "Airflow hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua\"))()",
+            },
+            {
+                title = "Norepinefrina Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://norepinefrina.com\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/king-legacy-scripts/",
+        slug = "king-legacy-scripts",
+        scripts = {
+            {
+                title = "KEYLESS King Legacy script – (Zee Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://zuwz.me/Ls-Zee-Hub-KL'))()",
+            },
+            {
+                title = "Tsuo Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/king%20legacy\"))()",
+            },
+            {
+                title = "Nexor Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/NexorHub/Games/refs/heads/main/Universal/Scripts.lua'))()",
+            },
+            {
+                title = "Fazium Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader\"))()",
+            },
+            {
+                title = "Hoho Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()",
+            },
+            {
+                title = "Legends Handles Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(('https://pastefy.app/3fQ9psgV/raw'),true))()",
+            },
+            {
+                title = "Hyper Hub",
+                has_key = true,
+                code = "repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua\"))()",
+            },
+            {
+                title = "OMG Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Omgshit/Scripts/refs/heads/main/FarmingFlags\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/work-at-pizza-place-scripts/",
+        slug = "work-at-pizza-place-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Work At Pizza Place script – (7Sone)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(('https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Work%20at%20a%20pizza%20place'),true))()",
+            },
+            {
+                title = "Troll Gui",
+                has_key = false,
+                code = "loadstring(game:HttpGetAsync(\"https://raw.githubusercontent.com/blueEa1532/thechosenone/refs/heads/main/trollpizzagui\"))()",
+            },
+            {
+                title = "Pizza Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ImARandom44/LoadingGui/refs/heads/main/Source\"))()",
+            },
+            {
+                title = "TRHP Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/RobloxHackingProject/HPHub/main/HPHub.lua\"))()",
+            },
+            {
+                title = "Desire Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/welomenchaina/Loader/refs/heads/main/ScriptLoader\",true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/doors-scripts/",
+        slug = "doors-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Doors script – (Saturn Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JScripter-Lua/Saturn_Hub_Products/refs/heads/main/Saturn_Hub_Doors.lua\"))()",
+            },
+            {
+                title = "Nullfire Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/TeamNullFire/NullFire/main/loader.lua\"))()",
+            },
+            {
+                title = "Aussie Wire Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/4f5c7bbe546251d81e9d3554b109008f.lua\"))()",
+            },
+            {
+                title = "Horizon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Laspard69/HorizonHub/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "Starfall hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Severitysvc/Starfall/refs/heads/main/Loader.lua\"))()",
+            },
+            {
+                title = "tigercubelite830 hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/tigercubelite830/DOORS/main/main.lua'))()",
+            },
+            {
+                title = "Lemon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/yDM1sCp7\"))()",
+            },
+            {
+                title = "Velocity X Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://velocityloader.vercel.app/\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/a-universal-time-scripts/",
+        slug = "a-universal-time-scripts",
+        scripts = {
+            {
+                title = "KEYLESS A Universal Time script – (Vellure Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/NyxaSylph/Vellure/refs/heads/main/AUT/Main.lua'))()",
+            },
+            {
+                title = "NukeVsCity hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/NukeVsCity/Scripts2025/refs/heads/main/AUniversalTim\"))()",
+            },
+            {
+                title = "Star Stream hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/starstreamowner/StarStream/refs/heads/main/Hub\"))()",
+            },
+            {
+                title = "Akatsuki Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AkatsukiHub1/A-Universal-Time/refs/heads/main/README.md\"))()",
+            },
+            {
+                title = "Imp Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/project-slayers-scripts/",
+        slug = "project-slayers-scripts",
+        scripts = {
+            {
+                title = "Project Slayers script – (Xenith Hub)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Fire scripts hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Ninja974/Fire-Scripts.github.io/refs/heads/main/loaders/Universal.lua\"))()",
+            },
+            {
+                title = "Cloud hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/cloudman4416/scripts/main/Loader.lua\"), \"Cloudhub\")()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/shindo-life-scripts/",
+        slug = "shindo-life-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Shindo Life script – (Slash Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://hub.wh1teslash.xyz/.lua\"))()",
+            },
+            {
+                title = "INF Spin",
+                has_key = false,
+                code = "local Fluent = loadstring(game:HttpGet(\"https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua\"))()
+local SaveManager = loadstring(game:HttpGet(\"https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua\"))()
+local InterfaceManager = loadstring(game:HttpGet(\"https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua\"))()
+
+local Window = Fluent:CreateWindow({
+    Title = \"Infinite Spin - Shindo Life\",
+    SubTitle = \"Auto spin for bloodlines\",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(580, 460),
+    Acrylic = true,
+    Theme = \"Dark\",
+    MinimizeKey = Enum.KeyCode.LeftControl
+})
+
+local Tabs = {
+    Main = Window:AddTab({ Title = \"Main\", Icon = \"\" }),
+    Settings = Window:AddTab({ Title = \"Settings\", Icon = \"settings\" })
+}
+
+local Options = Fluent.Options
+
+-- Variables
+local tpsrv = game:GetService(\"TeleportService\")
+local elementwanted = {}
+local slots = {\"kg1\", \"kg2\", \"kg3\", \"kg4\"}
+local autoSpinEnabled = false
+
+-- Function to get all element names from BossTab
+local function getElementNames()
+    local player = game:GetService(\"Players\").LocalPlayer
+    local bossTab = player.PlayerGui.Main.ingame.Menu.BossTab
+    
+    if bossTab then
+        local elements = {}
+        for _, frame in pairs(bossTab:GetChildren()) do
+            if frame:IsA(\"Frame\") and frame.Name then
+                table.insert(elements, frame.Name)
+            end
+        end
+        return elements
+    end
+    return {\"boil\", \"lightning\", \"fire\", \"ice\", \"sand\", \"crystal\", \"explosion\"} -- fallback
+end
+
+-- Function to start auto spin
+local function startAutoSpin()
+    print(\"Auto spin started!\")
+    
+    repeat task.wait() until game:isLoaded()
+    repeat task.wait() until game:GetService(\"Players\").LocalPlayer:FindFirstChild(\"startevent\")
+    
+    print(\"Game loaded, starting to spin...\")
+    game:GetService(\"Players\").LocalPlayer.startevent:FireServer(\"band\", \"\128\")
+    
+    while autoSpinEnabled do
+        task.wait(0.3)
+        
+        print(\"Checking elements and spinning...\")
+        
+        -- Check if we got any desired elements
+        for _, slot in pairs(slots) do
+            if game:GetService(\"Players\").LocalPlayer.statz.main[slot] and game:GetService(\"Players\").LocalPlayer.statz.main[slot].Value then
+                local currentElement = game:GetService(\"Players\").LocalPlayer.statz.main[slot].Value
+                print(\"Current element in \" .. slot .. \": \" .. currentElement)
+                
+                -- Check if this element is wanted
+                local isWanted = false
+                for _, element in pairs(elementwanted) do
+                    if currentElement == element then
+                        isWanted = true
+                        break
+                    end
+                end
+                
+                -- Show notification for each element
+                local wantedText = isWanted and \"WANTED: TRUE\" or \"WANTED: FALSE\"
+                Fluent:Notify({
+                    Title = slot:upper() .. \" Spin Result\",
+                    Content = \"Got: \" .. currentElement .. \" | \" .. wantedText,
+                    Duration = 2
+                })
+                
+                -- If we got what we want, stop and kick
+                if isWanted then
+                    print(\"Got \" .. currentElement .. \" in \" .. slot .. \"!\")
+                    game:GetService(\"Players\").LocalPlayer.startevent:FireServer(\"band\", \"Eye\")
+                    task.wait(1)
+                    game.Players.LocalPlayer:Kick(\"Got \" .. currentElement .. \" in \" .. slot .. \"!\")
+                    return
+                end
+            end
+        end
+        
+        -- Check if any slot has low spins
+        local lowSpins = false
+        if game:GetService(\"Players\").LocalPlayer.statz.spins and game:GetService(\"Players\").LocalPlayer.statz.spins.Value <= 1 then
+            lowSpins = true
+        end
+        
+        if lowSpins then
+            print(\"Low spins detected, teleporting...\")
+            tpsrv:Teleport(game.PlaceId, game.Players.LocalPlayer)
+        end
+        
+        -- Spin all slots
+        print(\"Spinning slots:\", table.concat(slots, \", \"))
+        for _, slot in pairs(slots) do
+            game:GetService(\"Players\").LocalPlayer.startevent:FireServer(\"spin\", slot)
+        end
+    end
+    
+    print(\"Auto spin stopped!\")
+end
+
+-- Function to stop auto spin
+local function stopAutoSpin()
+    autoSpinEnabled = false
+    getgenv().atspn = false
+    print(\"Auto spin disabled\")
+end
+
+do
+    -- Get element names
+    local availableElements = getElementNames()
+    
+    -- Element selection dropdown
+    local ElementDropdown = Tabs.Main:AddDropdown(\"ElementDropdown\", {
+        Title = \"Select Bloodlines\",
+        Description = \"Choose which bloodlines to auto-spin for\",
+        Values = availableElements,
+        Multi = true,
+        Default = {},
+    })
+    
+    ElementDropdown:OnChanged(function(Value)
+        elementwanted = {}
+        for element, state in next, Value do
+            if state then
+                table.insert(elementwanted, element)
+            end
+        end
+        print(\"Selected elements:\", table.concat(elementwanted, \", \"))
+    end)
+    
+    -- Slot selection dropdown
+    local SlotDropdown = Tabs.Main:AddDropdown(\"SlotDropdown\", {
+        Title = \"Select Slots\",
+        Description = \"Choose which slots to spin\",
+        Values = slots,
+        Multi = true,
+        Default = {\"kg1\", \"kg2\"},
+    })
+    
+    SlotDropdown:OnChanged(function(Value)
+        slots = {}
+        for slot, state in next, Value do
+            if state then
+                table.insert(slots, slot)
+            end
+        end
+        print(\"Selected slots:\", table.concat(slots, \", \"))
+    end)
+    
+    -- Auto spin toggle
+    local AutoSpinToggle = Tabs.Main:AddToggle(\"AutoSpinToggle\", {
+        Title = \"Auto Spin\",
+        Description = \"Automatically spin for selected bloodlines\",
+        Default = false
+    })
+    
+    AutoSpinToggle:OnChanged(function()
+        autoSpinEnabled = Options.AutoSpinToggle.Value
+        print(\"Auto spin toggle changed to:\", autoSpinEnabled)
+        
+        if autoSpinEnabled then
+            getgenv().atspn = true
+            Fluent:Notify({
+                Title = \"Auto Spin\",
+                Content = \"Started auto spinning for selected bloodlines\",
+                Duration = 3
+            })
+            task.spawn(startAutoSpin)
+        else
+            stopAutoSpin()
+            Fluent:Notify({
+                Title = \"Auto Spin\",
+                Content = \"Stopped auto spinning\",
+                Duration = 3
+            })
+        end
+    end)
+    
+    -- Manual spin button
+    Tabs.Main:AddButton({
+        Title = \"Manual Spin\",
+        Description = \"Spin once manually\",
+        Callback = function()
+            if game:GetService(\"Players\").LocalPlayer:FindFirstChild(\"startevent\") then
+                for _, slot in pairs(slots) do
+                    game:GetService(\"Players\").LocalPlayer.startevent:FireServer(\"spin\", slot)
+                end
+                Fluent:Notify({
+                    Title = \"Manual Spin\",
+                    Content = \"Spun all selected slots\",
+                    Duration = 2
+                })
+            else
+                Fluent:Notify({
+                    Title = \"Error\",
+                    Content = \"Game not loaded yet\",
+                    Duration = 3
+                })
+            end
+        end
+    })
+    
+    -- Save stats button
+    Tabs.Main:AddButton({
+        Title = \"Save Stats\",
+        Description = \"Save your current stats and progress\",
+        Callback = function()
+            if game:GetService(\"Players\").LocalPlayer:FindFirstChild(\"startevent\") then
+                game:GetService(\"Players\").LocalPlayer.startevent:FireServer(\"band\", \"Eye\")
+                Fluent:Notify({
+                    Title = \"Stats Saved\",
+                    Content = \"Your current stats have been saved!\",
+                    Duration = 3
+                })
+            else
+                Fluent:Notify({
+                    Title = \"Error\",
+                    Content = \"Game not loaded yet\",
+                    Duration = 3
+                })
+            end
+        end
+    })
+    
+    -- Refresh elements button
+    Tabs.Main:AddButton({
+        Title = \"Refresh Elements\",
+        Description = \"Refresh the list of available bloodlines\",
+        Callback = function()
+            local newElements = getElementNames()
+            ElementDropdown:SetValues(newElements)
+            Fluent:Notify({
+                Title = \"Refresh\",
+                Content = \"Updated bloodline list\",
+                Duration = 2
+            })
+        end
+    })
+    
+    -- Status display
+    Tabs.Main:AddParagraph({
+        Title = \"Status\",
+        Content = \"Select your desired bloodlines and slots, then enable auto spin to start farming!\"
+    })
+end
+
+-- Addons setup
+SaveManager:SetLibrary(Fluent)
+InterfaceManager:SetLibrary(Fluent)
+SaveManager:IgnoreThemeSettings()
+SaveManager:SetIgnoreIndexes({})
+InterfaceManager:SetFolder(\"InfiniteSpin\")
+SaveManager:SetFolder(\"InfiniteSpin/shindo-life\")
+
+InterfaceManager:BuildInterfaceSection(Tabs.Settings)
+SaveManager:BuildConfigSection(Tabs.Settings)
+
+Window:SelectTab(1)
+
+Fluent:Notify({
+    Title = \"Infinite Spin\",
+    Content = \"Script loaded successfully! Select your bloodlines and start spinning.\",
+    Duration = 5
+})
+
+SaveManager:LoadAutoloadConfig()",
+            },
+            {
+                title = "Best Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://rscripts.net/raw/best-shindo-life-script-lots-of-features_1759797069870_PhV9TdX3Is.txt\",true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/big-paintball-scripts/",
+        slug = "big-paintball-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Big Paintball script – (RealZz Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://realzzhub.xyz/script.lua\"))()",
+            },
+            {
+                title = "Fazium Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/big-paintball-2-scripts/",
+        slug = "big-paintball-2-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Big Paintball 2 script – (Binary Zero)",
+                has_key = false,
+                code = "loadstring(game:HttpGet\"https://raw.githubusercontent.com/SquidGurr/My-Scripts/refs/heads/main/My%20Keyless%20Big%20Paintball%202%20Script\")()",
+            },
+            {
+                title = "Loop kill all players",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/M1RmQ5pY\", true))()",
+            },
+            {
+                title = "Combo Wick hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/checkurasshole/Script/refs/heads/main/IQ'))();",
+            },
+            {
+                title = "Soluna script hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://soluna-script.vercel.app/big-paintball-2.lua\",true))()",
+            },
+            {
+                title = "Collide hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/bozokongy-hash/mastxr/refs/heads/main/collidehub.lua\"))()",
+            },
+            {
+                title = "Piyo script hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/fadhilarrafi/BigPaintball2/refs/heads/main/keysystemobf.lua\"))()",
+            },
+            {
+                title = "Vex Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/10cxm/loader/refs/heads/main/src\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/anime-fight-scripts/",
+        slug = "anime-fight-scripts",
+        scripts = {
+            {
+                title = "Anime Fight script – (Multi Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Allanursulino/fight.lua/refs/heads/main/AnimeFight.lua\"))()",
+            },
+            {
+                title = "Cid Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/xsheed/loader/refs/heads/main/mainloader.lua\"))()",
+            },
+            {
+                title = "NS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://rscripts.net/raw/rscripts_obfuscated_op-best-script-auto-farm-auto-trial-auto-tower-and-more_1762468522655_eKtLfz2r6w.txt\",true))()",
+            },
+            {
+                title = "Rebel Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://rebelhub.pro/loader\"))()",
+            },
+            {
+                title = "Aeonic Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mazino45/main/refs/heads/main/MainScript.lua\"))()",
+            },
+            {
+                title = "Jinkx Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/stormskmonkey/JinkX/main/Loader.lua\"))()",
+            },
+            {
+                title = "Moon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/fcef5e88349466d80f524cc610f4695e69e71d6153048167c52c59ea7e7e4167/download\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/die-of-death-scripts/",
+        slug = "die-of-death-scripts",
+        scripts = {
+            {
+                title = "Die of Death script – (OrionCheatZ hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JScripter-Lua/OrionCheatZ_Script/refs/heads/main/DoD.lua\"))()",
+            },
+            {
+                title = "Nexer Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/NewNexer/NexerHub/refs/heads/main/DOD/Launcher.luau\"))()",
+            },
+            {
+                title = "RedHead21 hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/RedScripter102/Script/refs/heads/main/Die%20of%20death%20updated\"))()",
+            },
+            {
+                title = "Ethereon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://ethereon.downy.press/Key-System.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/attack-on-titan-revolution-scripts/",
+        slug = "attack-on-titan-revolution-scripts",
+        scripts = {
+            {
+                title = "Attack on Titan Revolution script – (Napaleon Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/raydjs/napoleonHub/refs/heads/main/src.lua\"))()",
+            },
+            {
+                title = "Tekit Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/705e7fe7aa288f0fe86900cedb1119b1.lua\"))()",
+            },
+            {
+                title = "Best Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://rscripts.net/raw/best-free-op-aot-script_1759796822055_cpRaQ4Ogi1.txt\",true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/flick-scripts/",
+        slug = "flick-scripts",
+        scripts = {
+            {
+                title = "Flick script – (Syrex Genesis X)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Joshingtonn123/JoshScript/refs/heads/main/SyrexGenesisXFlick\"))()",
+            },
+            {
+                title = "UNX Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://apigetunx.vercel.app/UNX.lua\",true))()",
+            },
+            {
+                title = "Ed Hub V4",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Eddy23421/EdHubV4/refs/heads/main/loader\"))()",
+            },
+            {
+                title = "OP BEST KEYLESS AIMBOT – (only for PC)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/caae3d70d980245e35f6f4e1bac98c5b.lua\"))()",
+            },
+            {
+                title = "Nobulem Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://nobulem.wtf/loader.lua\"))()",
+            },
+            {
+                title = "Holdik hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/axxciax-alt/aimbots/refs/heads/main/fff'))()",
+            },
+            {
+                title = "Strike Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/bozokongy-hash/mastxr/refs/heads/main/Strike.lua\"))()",
+            },
+            {
+                title = "Neversuck hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/trzxasd/neversuck.cc/main/neversuckuniversal.lua\"))()",
+            },
+            {
+                title = "SWEBWARE",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/bozokongy-hash/mastxr/refs/heads/main/Flicks.lua\"))()",
+            },
+            {
+                title = "FPS Hacks",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Minirick0-0/FPS-Hacks/refs/heads/main/FPS%20v1.2%20beta'))()",
+            },
+            {
+                title = "Vex Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/10cxm/loader/refs/heads/main/src\"))()",
+            },
+            {
+                title = "NisulRocks Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Nisulrocks/FPS-flick/refs/heads/main/main\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/tank-game-scripts/",
+        slug = "tank-game-scripts",
+        scripts = {
+            {
+                title = "Tank Game script – (Airflow hub)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://airflowscript.com/loader\"))()",
+            },
+            {
+                title = "Rax Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/raxscripts/LuaUscripts/refs/heads/main/TankGame.lua'))()",
+            },
+            {
+                title = "Alternative hubd",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/A1ternative-hub/script/refs/heads/main/tu'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/anime-weapons-scripts/",
+        slug = "anime-weapons-scripts",
+        scripts = {
+            {
+                title = "Anime Weapons script – (NicS Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/nicsssz/AnimeWeapons/refs/heads/main/animeweps\"))()",
+            },
+            {
+                title = "Moon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/fcef5e88349466d80f524cc610f4695e69e71d6153048167c52c59ea7e7e4167/download\"))()",
+            },
+            {
+                title = "Rebel Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://rebelhub.pro/loader\"))()",
+            },
+            {
+                title = "NS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OhhMyGehlee/sh/refs/heads/main/a\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/raft-tycoon-scripts/",
+        slug = "raft-tycoon-scripts",
+        scripts = {
+            {
+                title = "Raft Tycoon script – (Tkst Panel)",
+                has_key = false,
+                code = "-- Raft Tycoon
+
+
+
+
+loadstring(game:HttpGet(\"https://bitbucket.org/tekscripts/tkst/raw/26ecd6809ab1da6c5cd02ca1e88a15e8865459ac/Scripts/raft-survival.lua\"))()",
+            },
+            {
+                title = "2btr hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pandadevelopment.net/virtual/file/9f478aeecd2a3197\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/rebirth-champions-ultimate-scripts/",
+        slug = "rebirth-champions-ultimate-scripts",
+        scripts = {
+            {
+                title = "Rebirth Champions: Ultimate script – (Strelizia hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/0vma/Strelizia/refs/heads/main/Standalone/RebirthChampionsUltimate.lua', true))()",
+            },
+            {
+                title = "WrapGate hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Amazonek123/ScriptManager/refs/heads/main/RCU.lua\"))()",
+            },
+            {
+                title = "Gandalf Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Gandalf312/RCU-/refs/heads/main/Loader'))()",
+            },
+            {
+                title = "DuckyScripts",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/bigbeanscripts/RCU./refs/heads/main/DuckyScriptz\"))()",
+            },
+            {
+                title = "AshLabs",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://ashlabs.me/api/game?name=Rebirth-Champion.lua\", true))()",
+            },
+            {
+                title = "Ketty Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/KettyDev/KettyHub/refs/heads/main/KeySystem\"))()",
+            },
+            {
+                title = "Rebel Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/86de6d175e585ef6c1c7f4bdebfc57cc.lua\"))()",
+            },
+            {
+                title = "badscripthub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/d949084ea062c1893d5d0d849c974baf.lua\"))()",
+            },
+            {
+                title = "Devil Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/DEVIL-Script/DEVIL-Hub/main/DEVIL-Hub-Main\", true))()",
+            },
+            {
+                title = "The Intruders hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet\"https://raw.githubusercontent.com/lifaiossama/errors/main/Intruders.html\")()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/a-dusty-trip-scripts/",
+        slug = "a-dusty-trip-scripts",
+        scripts = {
+            {
+                title = "a dusty trip script – (KGuestCheatsJ Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/KGuestCheatsJReal/ComeBack/refs/heads/main/ADustyTripGodMode\"))()",
+            },
+            {
+                title = "Demonic Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua\",true))()",
+            },
+            {
+                title = "Tx3Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/GamerReady/Tx3HubV2/main/Games/Tx3HubV2\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/heroes-battlegrounds-scripts/",
+        slug = "heroes-battlegrounds-scripts",
+        scripts = {
+            {
+                title = "Heroes Battlegrounds script – (Academic Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/solarastuff/hbg/refs/heads/main/academic.lua\"))()",
+            },
+            {
+                title = "Respawn Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGetAsync(\"https://raw.githubusercontent.com/Yetfmafi/RespawnHub/refs/heads/main/Main\"))()",
+            },
+            {
+                title = "Arc Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://gist.githubusercontent.com/Dan7anaan/2a43ab4365ee1de7aadef9d58800b00f/raw/ffa3d2bb91b9389139dd25ba3f40f33b13cd7fbf/gistfile1.txt\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/basketball-zero-scripts/",
+        slug = "basketball-zero-scripts",
+        scripts = {
+            {
+                title = "Basketball Zero script – (Zeke Hub)",
+                has_key = true,
+                code = "script_key=\"keyhere\" -- script can be bought from the website or discord zekehub.com
+loadstring(game:HttpGet(\"https://zekehub.com/scripts/Loader.lua\"))()",
+            },
+            {
+                title = "sigma script",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/0abf22d9dc1307a6cf1a4a17955e312d.lua\"))()",
+            },
+            {
+                title = "roscripts749 (OFTEN BAN YOU)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/roscripts749/loader/refs/heads/main/loader\"))()",
+            },
+            {
+                title = "Rinns hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/e1cfd93b113a79773d93251b61af1e2f.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/dragon-adventures-scripts/",
+        slug = "dragon-adventures-scripts",
+        scripts = {
+            {
+                title = "Dragon Adventures script – (IMP Hub)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/alan11ago/Hub/refs/heads/main/ImpHub.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/jailbreak-scripts/",
+        slug = "jailbreak-scripts",
+        scripts = {
+            {
+                title = "Jailbreak script – (OP Autofarm)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular\"))()",
+            },
+            {
+                title = "Vylera Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/vylerascripts/vylera-scripts/main/VyleraJailBreak.lua\"))()",
+            },
+            {
+                title = "Minirick hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Minirick0-0/FPS-Hacks/refs/heads/main/Auto%20Arrest'))()",
+            },
+            {
+                title = "Solix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/driving-empire-scripts/",
+        slug = "driving-empire-scripts",
+        scripts = {
+            {
+                title = "Driving Empire script – (Star Stream)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(request({Url='https://aussie.productions/script'}).Body))()",
+            },
+            {
+                title = "Tora Is Me – (Lego Event farm)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/DrivingEmpireLEGO\"))()",
+            },
+            {
+                title = "RIP Hub",
+                has_key = false,
+                code = "_G.RedGUI = true
+_G.Theme = \"Dark\" -- Must disable or remove _G.RedGUI to use
+--Themes: Light, Dark, Mocha, Aqua and Jester
+
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/DrivingEmpire.lua\"))()",
+            },
+            {
+                title = "Vex Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/10cxm/loader/refs/heads/main/src\"))()",
+            },
+            {
+                title = "Kenniel Scripts hub",
+                has_key = true,
+                code = "local scriptSource = loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Kenniel123/Driving-Empire/refs/heads/main/Driving%20Empire%20AutoFarm%20Freemium\"))()",
+            },
+            {
+                title = "ComboWICK hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/checkurasshole/Script/refs/heads/main/IQ'))();",
+            },
+            {
+                title = "Vibe Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mamamaisapoo/VibeHubLoader/refs/heads/main/VibeHubLoader.lua\",true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/find-the-brainrot-scripts/",
+        slug = "find-the-brainrot-scripts",
+        scripts = {
+            {
+                title = "Find The Brainrot script – (Blade X Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/snipescript/BLADEXUB-FTBDIS/refs/heads/main/bladexhubftbdis\"))()",
+            },
+            {
+                title = "Void Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ksawierprosyt/Void-Hub/refs/heads/main/VoidHubLoader.lua\"))()",
+            },
+            {
+                title = "Peachy Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/d37435894c260e0200d7c0cee1c5a4aea45602edb3ee1fa3c37726e2fe857ad5/download\"))()",
+            },
+            {
+                title = "MB Hub",
+                has_key = true,
+                code = "--[[
+                                                                                                                    
+                                                                                                bbbbbbbb            
+MMMMMMMM               MMMMMMMMBBBBBBBBBBBBBBBBB        HHHHHHHHH     HHHHHHHHH                 b::::::b            
+M:::::::M             M:::::::MB::::::::::::::::B       H:::::::H     H:::::::H                 b::::::b            
+M::::::::M           M::::::::MB::::::BBBBBB:::::B      H:::::::H     H:::::::H                 b::::::b            
+M:::::::::M         M:::::::::MBB:::::B     B:::::B     HH::::::H     H::::::HH                  b:::::b            
+M::::::::::M       M::::::::::M  B::::B     B:::::B       H:::::H     H:::::H  uuuuuu    uuuuuu  b:::::bbbbbbbbb    
+M:::::::::::M     M:::::::::::M  B::::B     B:::::B       H:::::H     H:::::H  u::::u    u::::u  b::::::::::::::bb  
+M:::::::M::::M   M::::M:::::::M  B::::BBBBBB:::::B        H::::::HHHHH::::::H  u::::u    u::::u  b::::::::::::::::b 
+M::::::M M::::M M::::M M::::::M  B:::::::::::::BB         H:::::::::::::::::H  u::::u    u::::u  b:::::bbbbb:::::::b
+M::::::M  M::::M::::M  M::::::M  B::::BBBBBB:::::B        H:::::::::::::::::H  u::::u    u::::u  b:::::b    b::::::b
+M::::::M   M:::::::M   M::::::M  B::::B     B:::::B       H::::::HHHHH::::::H  u::::u    u::::u  b:::::b     b:::::b
+M::::::M    M:::::M    M::::::M  B::::B     B:::::B       H:::::H     H:::::H  u::::u    u::::u  b:::::b     b:::::b
+M::::::M     MMMMM     M::::::M  B::::B     B:::::B       H:::::H     H:::::H  u:::::uuuu:::::u  b:::::b     b:::::b
+M::::::M               M::::::MBB:::::BBBBBB::::::B     HH::::::H     H::::::HHu:::::::::::::::uub:::::bbbbbb::::::b
+M::::::M               M::::::MB:::::::::::::::::B      H:::::::H     H:::::::H u:::::::::::::::ub::::::::::::::::b 
+M::::::M               M::::::MB::::::::::::::::B       H:::::::H     H:::::::H  uu::::::::uu:::ub:::::::::::::::b  
+MMMMMMMM               MMMMMMMMBBBBBBBBBBBBBBBBB        HHHHHHHHH     HHHHHHHHH    uuuuuuuu  uuuubbbbbbbbbbbbbbbb   
+                                                                                                                    
+                                                                                                                    
+                                                                                                           
+					Join our Discord for more scripts! https://discord.gg/KFvcKdCnnj
+                                                    
+
+]]--
+
+
+
+
+
+loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/864d8fd4295fdb1c497df9ae056404f536cdbf32e87af37378e1ce8175ff7c89/download\"))()",
+            },
+            {
+                title = "MB Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AliframadiRealYT/AS-Hub/refs/heads/main/FindtheBrainrot\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/road-side-shawarma-scripts/",
+        slug = "road-side-shawarma-scripts",
+        scripts = {
+            {
+                title = "Road-Side Shawarma script – (sigmatic323)",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Hjgyhfyh/Scripts-roblox/refs/heads/main/Road-Side%20Shawarma%20%5BHORROR%5D.txt'))()",
+            },
+            {
+                title = "Vailen Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/xnriu/Roadside-Shawarma/refs/heads/main/Roadside-Shawarma\", true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/build-a-roller-coaster-scripts/",
+        slug = "build-a-roller-coaster-scripts",
+        scripts = {
+            {
+                title = "Build a roller coaster script – (Star Stream)",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://pastebin.com/raw/DjvC9Abi'))()",
+            },
+            {
+                title = "HOKALAZA1 hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hehehe9028/build-a-roller-coaster/refs/heads/main/HOKALAZA\"))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/blockspin-scripts/",
+        slug = "blockspin-scripts",
+        scripts = {
+            {
+                title = "BlockSpin script – (Skidware hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/public-account-7/skidware/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "JHub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JHUB2618/JHURBBBBB/refs/heads/main/Jhurbbbb\",true))()",
+            },
+            {
+                title = "Utopia Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Klinac/scripts/main/blockspin.lua\", true))()",
+            },
+            {
+                title = "Utopia Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua\"))()",
+            },
+            {
+                title = "Sapphire Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://pastefy.app/QV8o3bC3/raw'))()",
+            },
+            {
+                title = "Sasware hub",
+                has_key = true,
+                code = "loadstring(
+    game:HttpGet(
+        \"https://api.sasware.dev/script/Bootstrapper.luau\"
+    )
+)()",
+            },
+            {
+                title = "Zeke hub",
+                has_key = true,
+                code = "script_key=\"keyhere\" -- script can be bought from the website or discord zekehub.com
+loadstring(game:HttpGet(\"https://zekehub.com/scripts/Loader.lua\"))()",
+            },
+            {
+                title = "Hermanos Dev Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/BlockSpin/blockspin-pvp.lua'))()
+loadstring(game:HttpGet(\"https://zekehub.com/scripts/Loader.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/violence-district-scripts/",
+        slug = "violence-district-scripts",
+        scripts = {
+            {
+                title = "Violence District script – (Anch Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ayamnubchh/Violence-District-Roblox-Script/main/ANCH-Hax.lua\"))()",
+            },
+            {
+                title = "Golds Easy Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://rawscripts.net/raw/Violence-District-Open-Source-fully-auto-generator-script-with-working-ESP-65319\"))()",
+            },
+            {
+                title = "IceWare hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Iceware-RBLX/Roblox/refs/heads/main/loader.lua\",true))()",
+            },
+            {
+                title = "Vgxmod Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/VGXMODPLAYER68/Vgxmod-Hub/refs/heads/main/Violence%20District.lua\"))()",
+            },
+            {
+                title = "Solorae Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/skidma/solarae/refs/heads/main/vd.lua\"))()",
+            },
+            {
+                title = "cuddly enigma",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Massivendurchfall/cuddly-enigma/refs/heads/main/ViolenceDistrict\"))()",
+            },
+            {
+                title = "Orion CheatZ Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JScripter-Lua/OrionCheatZ_Script/refs/heads/main/VD_V0.1.lua\"))()",
+            },
+            {
+                title = "77wiki hub",
+                has_key = false,
+                code = "getgenv().key = \"https://discord.gg/SRG7QTvEuR\"
+
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/areyourealforme/77wiki/refs/heads/main/violencedistrict.lua\"))()",
+            },
+            {
+                title = "Xenith Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Azed hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/de-ishi/scripts/refs/heads/main/Aze_Loader'))()",
+            },
+            {
+                title = "BAR1S HUB",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastefy.app/ARRk3iHx/raw\", true))()",
+            },
+            {
+                title = "Kali Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://kalihub.xyz/loader.lua'))()",
+            },
+            {
+                title = "Ziaan Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://ziaanhub.github.io/ziaanhub.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/the-battle-bricks-scripts/",
+        slug = "the-battle-bricks-scripts",
+        scripts = {
+            {
+                title = "The Battle Bricks script – (Legacy Hub)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/96cb4782a308813fba97fb2479e2c08b.lua\"))()",
+            },
+            {
+                title = "TBBScript",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/xdinorun/TBBScript/refs/heads/main/TBBSCRIPT.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/flee-the-facility-scripts/",
+        slug = "flee-the-facility-scripts",
+        scripts = {
+            {
+                title = "Flee the Facility script – (UNXHub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://rawscripts.net/raw/Flee-the-Facility-UNXHub-63784\"))()",
+            },
+            {
+                title = "Soluna Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://soluna-script.vercel.app/flee-the-facility.lua\",true))()",
+            },
+            {
+                title = "Kittenhook lua",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/frids56/kittenhookFTF/refs/heads/main/kittenhookFTF.lua\",true))()",
+            },
+            {
+                title = "Arsenal Quest Helper PRO",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/VE95x8bk\"))()",
+            },
+            {
+                title = "FacilityCore",
+                has_key = true,
+                code = "-- v1.1.0 VERSION [NEW/ 20/10/25]
+loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/0e6e9cbba1aa11a8b1a649d8d70bb4b1dccb22ce9592430e19ed088e9515d7ec/download\"))()",
+            },
+            {
+                title = "Aussie Wire",
+                has_key = true,
+                code = "loadstring(game:HttpGet(request({Url='https://aussie.productions/script'}).Body))()",
+            },
+            {
+                title = "RiftWare",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/02aa64099481d5d1798a9daa820497fa5e0b67b0da8dc05106a0a96fbfa30d49/download\"))()",
+            },
+            {
+                title = "Infinity X Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://gitlab.com/Lmy77/menu/-/raw/main/infinityx\"))()",
+            },
+            {
+                title = "Mimi Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Jstarzz/fleethefacility/refs/heads/main/main.lua\", true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/super-league-soccer-scripts/",
+        slug = "super-league-soccer-scripts",
+        scripts = {
+            {
+                title = "Super League Soccer script – (Kohler Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Vnadreb/Scripts/refs/heads/main/KohlerHub.txt\"))()",
+            },
+            {
+                title = "Stratum Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Sub2BK/Stratum/refs/heads/Scripts/Stratum_Loader.lua\"))()",
+            },
+            {
+                title = "AnimeWare",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/KAJUU490/e7/refs/heads/main/kaju\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/3008-scripts/",
+        slug = "3008-scripts",
+        scripts = {
+            {
+                title = "3008 script – (Sealient)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Sealient/Sealients-Roblox-Scripts/refs/heads/main/3008-%20UPDATED/3008.lua\"))()",
+            },
+            {
+                title = "NEURON Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet\"https://raw.githubusercontent.com/Yumiara/Python/refs/heads/main/SCP3008.py\")()",
+            },
+            {
+                title = "Sky Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/SkyHub.txt\"))()",
+            },
+            {
+                title = "Zeerox Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()",
+            },
+            {
+                title = "Frag CC Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/GabiPizdosu/MyScripts/refs/heads/main/Loader.lua\",true))()",
+            },
+            {
+                title = "Void Path",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/voidpathhub/VoidPath/refs/heads/main/VoidPath.luau\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/grand-piece-online-scripts/",
+        slug = "grand-piece-online-scripts",
+        scripts = {
+            {
+                title = "Grand Piece Online script – (0 to 625 Level)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/2dfd72b15d037b59003d65961e663033.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/murderers-vs-sheriffs-duels-scripts/",
+        slug = "murderers-vs-sheriffs-duels-scripts",
+        scripts = {
+            {
+                title = "Murderers VS Sheriffs DUELS script – (Wicik Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Wic1k/Scripts/refs/heads/main/mvsd.txt\"))()",
+            },
+            {
+                title = "Le Honk",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/niclaspoopy123/Mvsd-scripts/refs/heads/main/Main%20script\"))()",
+            },
+            {
+                title = "Tbao Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurdervssheriff\"))()",
+            },
+            {
+                title = "CHub",
+                has_key = true,
+                code = "_G.ScKo = \"CMVSD\"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CatRoman05/CScripts/refs/heads/master/CHub/keysistem.lua'))()",
+            },
+            {
+                title = "Why Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JustLuaDeveloper/WhyHub/refs/heads/main/Loader.lua\"))()",
+            },
+            {
+                title = "ByteCore",
+                has_key = true,
+                code = "loadstring(game:HttpGetAsync(\"https://raw.githubusercontent.com/lelo0002/byte/refs/heads/main/1.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/fling-things-and-people-scripts/",
+        slug = "fling-things-and-people-scripts",
+        scripts = {
+            {
+                title = "Fling Things and People script – (Xarvok Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://gist.githubusercontent.com/lolwsg/f7addd848006471806f31592e0a27336/raw/9f42e2d0db75cf99b46ea10eb3ecdf98876cdbcd/fling\", true))()",
+            },
+            {
+                title = "Flades Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Artss1/Flades_Hub/refs/heads/main/We%20Are%20Arts.lua\"))()",
+            },
+            {
+                title = "Brovaky Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Brovaky/Friendly/refs/heads/main/Friendly'))()",
+            },
+            {
+                title = "Name Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/NameHubScript/_/refs/heads/main/f\"))()",
+            },
+            {
+                title = "R Scripter",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/example-prog/FLING-THINGS-AND-PEOPLE/refs/heads/main/Flingthingsandpeoplescript\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/emergency-hamburg-scripts/",
+        slug = "emergency-hamburg-scripts",
+        scripts = {
+            {
+                title = "Emergency Hamburg script – (Luma Core)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/PZdRiTeS\"))()",
+            },
+            {
+                title = "Beanz Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://beanzz.wtf/Main.lua\"))()",
+            },
+            {
+                title = "DP Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/COOLXPLO/DP-HUB-coolxplo/refs/heads/main/EH.lua\"))()",
+            },
+            {
+                title = "ASERVICE HUB",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/aservice-dev/aservice/refs/heads/main/mainscript.lua\"))()",
+            },
+            {
+                title = "Airflow hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://airflowscript.com/loader\"))()",
+            },
+            {
+                title = "Trixo Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://gist.githubusercontent.com/timprime837-sys/cc1a207296b12dc269568938421ab1fa/raw/6821cce97694518025c521531dca09f5d39680ec/Trixov10'))()",
+            },
+            {
+                title = "Dark x Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(('https://raw.githubusercontent.com/Merdooon/skibidi-sigma-spec-ter/refs/heads/main/specter')))()",
+            },
+            {
+                title = "Ethereon Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/136e9ef07454c3b3977dbbe6615e1531c53d3d22d8b942d91c047cca0c1ebcec/download\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/squid-game-x-scripts/",
+        slug = "squid-game-x-scripts",
+        scripts = {
+            {
+                title = "Squid Game X script – (RIP V2)",
+                has_key = false,
+                code = "_G.Theme = \"Dark\"
+--Themes: Light, Dark, Red, Mocha, Aqua and Jester
+
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/SquidGameX.lua\"))()",
+            },
+            {
+                title = "KaiXar",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/madenciicom/squidgamex/refs/heads/main/SquidGameX_KaiXar.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/creatures-of-sonaria-scripts/",
+        slug = "creatures-of-sonaria-scripts",
+        scripts = {
+            {
+                title = "Creatures of Sonaria script – (Lunar Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Mangnex/Lunar-Hub/refs/heads/main/FreeLoader.lua\"))()",
+            },
+            {
+                title = "Gold Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://getgold.cc\"))()",
+            },
+            {
+                title = "manthem123 hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/manthem123/cos/main/main.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/pls-donate-scripts/",
+        slug = "pls-donate-scripts",
+        scripts = {
+            {
+                title = "PLS donate script – (szze hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/1f0yt/community/main/tzechco\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/realistic-street-soccer-scripts/",
+        slug = "realistic-street-soccer-scripts",
+        scripts = {
+            {
+                title = "Realistic Street Soccer script – (Verbal hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/VerbalHubz/Verbal-Hub/refs/heads/main/Realistic%20Street%20Soccer%20Op%20Script\",true))()",
+            },
+            {
+                title = "CatHook",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/ZfpsGT1030/RealisticStreetSoccer/refs/heads/main/orbit167_69325\"))()",
+            },
+            {
+                title = "Flash Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Gandalf312/RSS/refs/heads/main/RSS'))()",
+            },
+            {
+                title = "971 Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/971amer7514/971/refs/heads/main/Realistic%20Street%20Soccer'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/pull-a-sword-scripts/",
+        slug = "pull-a-sword-scripts",
+        scripts = {
+            {
+                title = "Pull a Sword script – (Why Hub)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/JustLuaDeveloper/WhyHub/refs/heads/main/Loader.lua\"))()",
+            },
+            {
+                title = "Nisulrocks Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Nisulrocks/Pull-a-Sword/refs/heads/main/main\"))()",
+            },
+            {
+                title = "Wicik hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Wic1k/Scripts/refs/heads/main/PaS.txt\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/weak-legacy-2-scripts/",
+        slug = "weak-legacy-2-scripts",
+        scripts = {
+            {
+                title = "Weak Legacy 2 script – (MjContegaZXC)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://gist.githubusercontent.com/MjContiga1/29251405031a0d94caddfe4bf86714ba/raw/57b8f2f065592905e08d30eb6b82a190232dfb52/Weak%2520legacy%25202.lua\"))()",
+            },
+            {
+                title = "The Intruders hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet\"https://raw.githubusercontent.com/lifaiossama/errors/main/Intruders.html\")()",
+            },
+            {
+                title = "NS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OhhMyGehlee/sh/refs/heads/main/a\"))()",
+            },
+            {
+                title = "Rebel Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/CrazyHub123/NexusHubMain/main/Main.lua\", true))()",
+            },
+            {
+                title = "Kali Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://kalihub.xyz/loader.lua'))()",
+            },
+            {
+                title = "Pulsar X",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Estevansit0/KJJK/refs/heads/main/PusarX-loader.lua\"))()",
+            },
+            {
+                title = "Aeonic Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mazino45/main/refs/heads/main/MainScript.lua\"))()",
+            },
+            {
+                title = "DEFENDERS & BAR1S",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://pastebin.com/raw/43SgS9St'))()",
+            },
+            {
+                title = "ASSKIEN hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/5c73617e905f5924eb942ccf0119625b.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/brainrot-royale-scripts/",
+        slug = "brainrot-royale-scripts",
+        scripts = {
+            {
+                title = "Brainrot Royale script – (EAC Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://rscripts.net/raw/rscripts_obfuscated_keyless-brainrot-royale-auto-farm-or-eacscripts_1763490799592_6BD8t3pNOE.txt\",true))()",
+            },
+            {
+                title = "ArthurBrenno",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/MAMZZAPN\"))()",
+            },
+            {
+                title = "Void Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/coldena/voidhuba/refs/heads/main/voidhubload\",true))()",
+            },
+            {
+                title = "Hokalaza hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hehehe9028/HOKA/refs/heads/main/Brainrot%20royale\"))()",
+            },
+            {
+                title = "Senpai Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Senpai1997/Scripts/refs/heads/main/SenpaiHubBrainrotRoyaleAutoKillAll.lua\"))()",
+            },
+            {
+                title = "Alternative hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/A1ternative-hub/script/refs/heads/main/tu'))()",
+            },
+            {
+                title = "Airflow hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://airflowscript.com/loader\"))()",
+            },
+            {
+                title = "EZ Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/8e08cda5c530a6529a71a14b94a33734eccc870e9f28220410eb21d719f66da9/download\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/prospecting-scripts/",
+        slug = "prospecting-scripts",
+        scripts = {
+            {
+                title = "Prospecting script – (Synthora Hub)",
+                has_key = false,
+                code = "getgenv().WebHook = \"\"
+getgenv().MakeConfig = true
+getgenv().ConfigName = \"Config\"
+getgenv().LoadConfig = true
+
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Wenarch/Library/refs/heads/main/Script\"))()",
+            },
+            {
+                title = "Four Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/jokerbiel13/FourHub/refs/heads/main/Prospecting.lua\",true))()",
+            },
+            {
+                title = "Pxntxrez Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Pxntxrez/NULL/refs/heads/main/obfuscated_script-1753991814596.lua\"))()",
+            },
+            {
+                title = "Tora IsMe",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/Prospecting\"))()",
+            },
+            {
+                title = "EZ Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/8e08cda5c530a6529a71a14b94a33734eccc870e9f28220410eb21d719f66da9/download\"))()",
+            },
+            {
+                title = "Combo Wick",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/checkurasshole/Script/refs/heads/main/IQ'))();",
+            },
+            {
+                title = "Peanut X",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/TokyoYoo/gga2/refs/heads/main/Trst.lua\"))()",
+            },
+            {
+                title = "ZZZ Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/zzxzsss/zxs/refs/heads/main/xxzz\"))()",
+            },
+            {
+                title = "Nythera V3 Hub",
+                has_key = true,
+                code = "loadstring(
+    game:HttpGet(
+        'https://raw.githubusercontent.com/Sicalelak/Sicalelak/refs/heads/main/Prospecting'
+    )
+)()",
+            },
+            {
+                title = "Doit Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/DOITZ9/game/refs/heads/main/Prospecting.luau\"))()",
+            },
+            {
+                title = "NS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OhhMyGehlee/InOne/refs/heads/main/kei\"))()",
+            },
+            {
+                title = "Space Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/loader.lua'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/core-factory-scripts/",
+        slug = "core-factory-scripts",
+        scripts = {
+            {
+                title = "Demonalt Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastefy.app/WbzpDQCP/raw\", true))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/crop-incremental-scripts/",
+        slug = "crop-incremental-scripts",
+        scripts = {
+            {
+                title = "Crop Incremental script – (KEYLESS)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/alr272062-collab/Crop-incremental/refs/heads/main/Crop%20incremental\")) ();",
+            },
+            {
+                title = "ChimeraGaming",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://rscripts.net/raw/free-token-collector-fixed-october-22-open-source_1761168105543_hI2X6RwlkC.txt\",true))()",
+            },
+            {
+                title = "Premium Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/rp7qBjfS\"))()",
+            },
+            {
+                title = "Premium Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/rp7qBjfS\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/draw-donate-scripts/",
+        slug = "draw-donate-scripts",
+        scripts = {
+            {
+                title = "Draw & Donate script – (Image to Roblox)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/0o4o/image-converter/refs/heads/main/pixelporter\"))()",
+            },
+            {
+                title = "7r6ik",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/eb46b9dafc8cd9bfae487791b4810720fa372387d9f6663beae48af9af924b57/download\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/pet-quest-scripts/",
+        slug = "pet-quest-scripts",
+        scripts = {
+            {
+                title = "Pet Quest script – (IND Hub)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Enzo-YTscript/IND-Hub/main/Loader.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/westbound-scripts/",
+        slug = "westbound-scripts",
+        scripts = {
+            {
+                title = "Westbound script – (Stupid Arsenal Pro)",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/main/main/stupid%20guy%20ever%20in%20the%20west',true))()",
+            },
+            {
+                title = "Astra Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/enes14451445-dev/roblox-scripts/main/AstraHub_Westbound.lua\"))()",
+            },
+            {
+                title = "WestWare",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Sebiy/WestWare/main/WestWareScript.lua\", true))()",
+            },
+            {
+                title = "Valery Hub: Money autofarm",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/vylerascripts/vylera-scripts/main/vylerawestbound.lua\"))()",
+            },
+            {
+                title = "Trixo Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://gist.githubusercontent.com/timprime837-sys/f919af03ca0a161c34e48ffdcd486ce5/raw/c3f7f02f3d47dae76b3f74e06ff4e751fde4a49f/West_Bound\"))()",
+            },
+            {
+                title = "Purge Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/x7dJJ9vnFH23/Maintained-Fun/main/FUNC/Games/WB.lua\", true))()",
+            },
+            {
+                title = "Vex hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/10cxm/loader/refs/heads/main/src\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/demonfall-scripts/",
+        slug = "demonfall-scripts",
+        scripts = {
+            {
+                title = "Demonfall script – (Blood Hub)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/bloodhub420/bloodhub/refs/heads/main/script\",true))()",
+            },
+            {
+                title = "XorHub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/d022e30694b54a2c9191da40f15f2cf76750f090260fd302a66beb882661ee4e/download\"))()",
+            },
+            {
+                title = "Sui Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://haxhell.com/raw/56-demonfall-sui-hub\"))()",
+            },
+            {
+                title = "Project Stark",
+                has_key = true,
+                code = "--[[
+  ____               _              _     ____   _                _    
+ |  _ \  _ __  ___  (_)  ___   ___ | |_  / ___| | |_  __ _  _ __ | | __
+ | |_) || '__|/ _ \ | | / _ \ / __|| __| \___ \ | __|/ _` || '__|| |/ /
+ |  __/ | |  | (_) || ||  __/| (__ | |_   ___) || |_| (_| || |   |   < 
+ |_|    |_|   \___/_/ | \___| \___| \__| |____/  \__|\__,_||_|   |_|\_\
+                  |__/                                                                               
+]]
+
+local __ = {
+    ['\242'] = function(x) return loadstring(game:HttpGet(x))() end,
+    ['\173'] = function(q)
+        local o, l = {}, 1
+        for i in q:gmatch('%d+') do
+            o[l], l = string.char(i + 0), l + 1
+        end
+        return table.concat(o)
+    end,
+    ['\192'] = '104 116 116 112 115 58 47 47 114 97 119 46 103 105 116 104 117 98 117 115 101 114 99 111 110 116 101 110 116 46 99 111 109 47 85 114 98 97 110 115 116 111 114 109 109 47 80 114 111 106 101 99 116 45 83 116 97 114 107 47 109 97 105 110 47 77 97 105 110 46 108 117 97',
+    ['\111'] = function(...)
+        local a = {...}
+        return a[1](a[2](a[3]))
+    end,
+    ['\255'] = '\242\173\192'
+}
+
+(function(a)
+    local s, m, d = a['\255']:byte(1), a['\255']:byte(2), a['\255']:byte(3)
+    local f1, f2, f3 = a[string.char(s)], a[string.char(m)], a[string.char(d)]
+    return a['\111'](f1, f2, f3)
+end)(__)",
+            },
+            {
+                title = "Siffori Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/NysaDanielle/loader/refs/heads/main/auth\"))()",
+            },
+            {
+                title = "Glu Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/GLUU11/GluHub/refs/heads/main/Glu%20Hub\"))()",
+            },
+            {
+                title = "Alter Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AlterX404/Alter_Hub/main/Alter%20Hub.lua\"))()",
+            },
+            {
+                title = "Solix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua\"))()",
+            },
+            {
+                title = "NS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/064defa844d413e44319b04631c36357.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/lucky-blocks-battlegrounds-scripts/",
+        slug = "lucky-blocks-battlegrounds-scripts",
+        scripts = {
+            {
+                title = "LUCKY BLOCKS Battlegrounds script – (KEYLESS)",
+                has_key = false,
+                code = "-- Script developer: TheBloxGuyYT --
+loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/artas01/main/lucky'))()",
+            },
+            {
+                title = "Keemaw Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet\"https://raw.githubusercontent.com/Keemaw/LuckyBlock/main/Update%202\")()",
+            },
+            {
+                title = "Char Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://cdn.authguard.org/virtual-file/9433794370134385a3fdf58c92d31891\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/my-planet-tycoon-scripts/",
+        slug = "my-planet-tycoon-scripts",
+        scripts = {
+            {
+                title = "My Planet Tycoon script – (Tora Is Me)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/MyPlanetTycoon\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/break-a-friend-scripts/",
+        slug = "break-a-friend-scripts",
+        scripts = {
+            {
+                title = "Break a Friend script – (KEYLESS)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/g0u11RNP\"))()",
+            },
+            {
+                title = "Defyz Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Defy-cloud/Scripts/refs/heads/main/BreakaFriend\",true))()",
+            },
+            {
+                title = "Dang Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/danangori/Break-A-Friend/refs/heads/main/UI\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/gym-league-scripts/",
+        slug = "gym-league-scripts",
+        scripts = {
+            {
+                title = "Gym League script – (Speed Hub X)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AhmadV99/Script-Games/main/Gym%20League.lua\"))()",
+            },
+            {
+                title = "Zenith Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/LookP/Roblox/refs/heads/main/ZenithHubObsfucado.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/blood-debt-scripts/",
+        slug = "blood-debt-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Blood Debt script – (Kali Hub)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/uej2/blood-debt-script/refs/heads/main/blood-debtX2.lua\"))()",
+            },
+            {
+                title = "Silent Aim",
+                has_key = false,
+                code = "getgenv().HitChance = 100 -- if you wanna play \"legit\" set its value to something you like
+getgenv().wallcheck = false -- if you hate yourself enable this 🙂
+getgenv().TargetParts = { \"Head\", \"Torso\" } -- self explanatory
+getgenv().radius = 500 -- FOV SIZE, set to any number you like
+loadstring(game:HttpGet(\"https://raw.githubusercontent.com/RelkzzRebranded/BloodDebtIsGay/refs/heads/main/loader.lua\"))()",
+            },
+            {
+                title = "Ammo Counter",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://rawscripts.net/raw/Blood-debt-Intents-surfaced!-(12)-Ammo-Detector-66113\"))()",
+            },
+            {
+                title = "Whatares hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Whatares/bd/refs/heads/main/esp%2Bsilentaim'))()",
+            },
+            {
+                title = "FREE Aimbot",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/bigballsboyboy-web/ajjja/refs/heads/main/Protected_8744616769193668.lua\"))()",
+            },
+            {
+                title = "Space Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Space-RB/Script/refs/heads/main/loader.lua'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/trident-survival-scripts/",
+        slug = "trident-survival-scripts",
+        scripts = {
+            {
+                title = "Trident Survival script – (Heaven V5 hub)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/fd97ed92f5599079021cb6cf381eecdc134163f7259587d4ba0fd35a789071dd/download\"))()",
+            },
+            {
+                title = "Magic Bullet",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/hp6x/TridentSurvScriptbyhp6x/refs/heads/main/KeySystembyhp6x(TS)2.lua\"))()",
+            },
+            {
+                title = "Kali Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://kalihub.xyz/loader.lua'))()",
+            },
+            {
+                title = "Radium CC",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/48kk/Load/refs/heads/main/Main.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/drive-world-scripts/",
+        slug = "drive-world-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Drive World script – (Science cc)",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://pastebin.com/raw/6RiJFRnc\"))()",
+            },
+            {
+                title = "LeadMarker",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/LeadMarker/opensrc/main/Drive%20World/autofarm.lua'))()",
+            },
+            {
+                title = "WiglyWare",
+                has_key = false,
+                code = "loadstring(game:HttpGet('https://gist.githubusercontent.com/broreallyplayingthisgame/bd9ba97100ede3afd0a52d4478e7bc92/raw/'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/unboxing-rng-scripts/",
+        slug = "unboxing-rng-scripts",
+        scripts = {
+            {
+                title = "Orbital",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/6434210aec8c6ab9bade380201c60daa6a4f105cf9a34ef6e22fd67115649da3/download\"))()",
+            },
+            {
+                title = "Standart Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/EnxivityYZX/Unboxing-Rng/367f85d822579cacdb5e9f4984508e775209dddc/Unboxing%20rng.lua\", true))()",
+            },
+            {
+                title = "KOBEH hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/7ace980ea59881722bd6e806f23893c3525d558f9d2610e6b2fef3e8cfcc2c09/download\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/slasher-blade-loot-scripts/",
+        slug = "slasher-blade-loot-scripts",
+        scripts = {
+            {
+                title = "Slasher Blade Loot script – (KEYLESS)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/checkurasshole/Script/refs/heads/main/loaderfree\"))()",
+            },
+            {
+                title = "Tora Is Me",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/SlasherBladeLoot\"))()",
+            },
+            {
+                title = "Xtremescripts",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://cdn.authguard.org/virtual-file/696ca15afb68479ea707bbff28fdd5ed\"))()",
+            },
+            {
+                title = "EclipseWare",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/nxghtCry0/eclipseware/refs/heads/main/loader.lua\",true))()",
+            },
+            {
+                title = "NS hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/OhhMyGehlee/sh/refs/heads/main/a\"))()",
+            },
+            {
+                title = "Airflow hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://airflowscript.com/loader\"))()",
+            },
+            {
+                title = "EZ Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.junkie-development.de/api/v1/luascripts/public/8e08cda5c530a6529a71a14b94a33734eccc870e9f28220410eb21d719f66da9/download\"))()",
+            },
+            {
+                title = "Karbid Dev",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/karbid-dev/Karbid-Hub-Luna/refs/heads/main/Key_System.lua\"))()",
+            },
+            {
+                title = "Lucky Winner hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/MortyMo22/roblox-scripts/refs/heads/main/Blade-Loot%5BW3%5D\"))()",
+            },
+            {
+                title = "Alternative hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet('https://raw.githubusercontent.com/A1ternative-hub/script/refs/heads/main/tu'))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/deadly-delivery-scripts/",
+        slug = "deadly-delivery-scripts",
+        scripts = {
+            {
+                title = "KEYLESS Deadly Delivery script",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/VGXMODPLAYER68/Vgxmod-Hub/refs/heads/main/Deadly%20delivery.lua\"))()",
+            },
+            {
+                title = "Tora IsMe",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/gumanba/Scripts/main/DeadlyDelivery\"))()",
+            },
+            {
+                title = "Singularity Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://singularitybywxrp.onrender.com/api/loader.lua\"))()",
+            },
+        },
+    },
+    {
+        page_url = "https://robscript.com/fruit-battlegrounds-scripts/",
+        slug = "fruit-battlegrounds-scripts",
+        scripts = {
+            {
+                title = "Fruit Battlegrounds script – (Xenith Hub)",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v4/loaders/d7be76c234d46ce6770101fded39760c.lua\"))()",
+            },
+            {
+                title = "Qwenzy Hub",
+                has_key = false,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/mrqwenzy/QWENZY_HUB/refs/heads/main/FruitBattlegrounds\"))()",
+            },
+            {
+                title = "Forge Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua\"))()",
+            },
+            {
+                title = "NS Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://api.luarmor.net/files/v3/loaders/064defa844d413e44319b04631c36357.lua\"))()",
+            },
+            {
+                title = "Ice Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/IceDudez/TheIceCrew/refs/heads/main/Fruit%20Battlegrounds\"))()",
+            },
+            {
+                title = "Solix Hub",
+                has_key = true,
+                code = "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/meobeo8/a/a/a\"))()",
+            },
+        },
+    },
+}
+
+---------------------------------------------------------------------
+-- UTILITIES
+---------------------------------------------------------------------
+
+local function normalizeGameTitle(page)
+    if page.title and type(page.title) == "string" and page.title ~= "" then
+        return page.title
+    end
+    if page.slug and type(page.slug) == "string" and page.slug ~= "" then
+        local s = page.slug
+        s = s:gsub("%-scripts$", "")
+        s = s:gsub("%-", " ")
+        return s
+    end
+    if page.page_url and type(page.page_url) == "string" then
+        local s = page.page_url
+        s = s:gsub("https?://[^/]+/", "")
+        s = s:gsub("/+$", "")
+        s = s:gsub("%-scripts$", "")
+        s = s:gsub("%-", " ")
+        return s
+    end
+    return "Unknown Game"
+end
+
+local function runScript(scr)
+    if not scr or type(scr.code) ~= "string" then
+        Rayfield:Notify({
+            Title = "Error",
+            Content = "Invalid script data.",
+            Duration = 4,
+            Image = 0,
+        })
+        warn("[ROBScript Hub] Invalid script data")
+        return
+    end
+
+    if scr.has_key then
+        Rayfield:Notify({
+            Title = "Key Required",
+            Content = "This script requires an external key-system.",
+            Duration = 5,
+            Image = 0,
+        })
+        warn("[ROBScript Hub] Script requires key-system:", scr.title or "Unknown")
+        return
+    end
+
+    local fn, err = loadstring(scr.code)
+    if not fn then
+        Rayfield:Notify({
+            Title = "Error",
+            Content = "Failed to compile script.",
+            Duration = 4,
+            Image = 0,
+        })
+        warn("[ROBScript Hub] loadstring error for", scr.title or "Unknown", ":", err)
+        return
+    end
+
+    local ok, runtimeErr = pcall(fn)
+    if not ok then
+        Rayfield:Notify({
+            Title = "Error",
+            Content = "Runtime error in script (check console).",
+            Duration = 5,
+            Image = 0,
+        })
+        warn("[ROBScript Hub] runtime error for", scr.title or "Unknown", ":", runtimeErr)
+    end
+end
+
+---------------------------------------------------------------------
+-- WINDOW
+---------------------------------------------------------------------
+
+local Window = Rayfield:CreateWindow({
+    Name = "ROBScript Hub",
+    LoadingTitle = "ROBScript Hub",
+    LoadingSubtitle = "Loading embedded data...",
+    Theme = "Default",
+    ToggleUIKeybind = "RightShift",
+    DisableRayfieldPrompts = false,
+    DisableBuildWarnings = false,
+    ConfigurationSaving = {
+        Enabled = false,
+        FolderName = nil,
+        FileName = "ROBScriptHub"
+    },
+    Discord = {
+        Enabled = false,
+        Invite = "",
+        RememberJoins = true
+    },
+    KeySystem = false,
+})
+
+local HubTab = Window:CreateTab("Hub", 4483362458)
+local SearchSection = HubTab:CreateSection("Games & Scripts")
+
+---------------------------------------------------------------------
+-- STATE
+---------------------------------------------------------------------
+
+local currentGameFilter = ""
+local currentPage = nil
+local currentScript = nil
+
+local gameTitleToPage = {}
+local scriptTitleToScript = {}
+
+---------------------------------------------------------------------
+-- UI ELEMENTS
+---------------------------------------------------------------------
+
+local GameSearchInput = HubTab:CreateInput({
+    Name = "Search Games",
+    CurrentValue = "",
+    PlaceholderText = "Type part of game name...",
+    RemoveTextAfterFocusLost = false,
+    Flag = "ROBScriptGameSearch",
+    Callback = function(Text)
+        currentGameFilter = tostring(Text or "")
+    end,
+})
+
+local GameDropdown = HubTab:CreateDropdown({
+    Name = "Select Game",
+    Options = {},
+    CurrentOption = {},
+    MultipleOptions = false,
+    Flag = "ROBScriptGameDropdown",
+    Callback = function(Options)
+        local gameName = Options[1]
+        if not gameName then return end
+        local page = gameTitleToPage[gameName]
+        currentPage = page
+        currentScript = nil
+        -- refresh script dropdown when game changes
+        local scriptOptions = {}
+        scriptTitleToScript = {}
+        if page and type(page.scripts) == "table" then
+            for _, scr in ipairs(page.scripts) do
+                local displayName = scr.title or "Untitled"
+                table.insert(scriptOptions, displayName)
+                scriptTitleToScript[displayName] = scr
+            end
+        end
+        GameScriptsDropdown:Refresh(scriptOptions)
+        if scriptOptions[1] then
+            GameScriptsDropdown:Set({scriptOptions[1]})
+            currentScript = scriptTitleToScript[scriptOptions[1]]
+        else
+            GameScriptsDropdown:Set({})
+        end
+    end,
+})
+
+local GameScriptsSection = HubTab:CreateSection("Scripts for selected game")
+
+local GameScriptsDropdown = HubTab:CreateDropdown({
+    Name = "Select Script",
+    Options = {},
+    CurrentOption = {},
+    MultipleOptions = false,
+    Flag = "ROBScriptScriptDropdown",
+    Callback = function(Options)
+        local scrName = Options[1]
+        if not scrName then
+            currentScript = nil
+            return
+        end
+        currentScript = scriptTitleToScript[scrName]
+    end,
+})
+
+HubTab:CreateButton({
+    Name = "Execute Selected Script",
+    Callback = function()
+        if not currentScript then
+            Rayfield:Notify({
+                Title = "No Script Selected",
+                Content = "Please select a script first.",
+                Duration = 4,
+                Image = 0,
+            })
+            return
+        end
+        runScript(currentScript)
+    end,
+})
+
+---------------------------------------------------------------------
+-- DATA -> DROPDOWNS
+---------------------------------------------------------------------
+
+local function refreshGameDropdown()
+    gameTitleToPage = {}
+    local opts = {}
+    local filter = string.lower(currentGameFilter or "")
+    for _, page in ipairs(allPages) do
+        local title = normalizeGameTitle(page)
+        if filter == "" or string.find(string.lower(title), filter, 1, true) then
+            table.insert(opts, title)
+            gameTitleToPage[title] = page
+        end
+    end
+
+    GameDropdown:Refresh(opts)
+
+    if opts[1] then
+        GameDropdown:Set({opts[1]})
+        local firstPage = gameTitleToPage[opts[1]]
+        currentPage = firstPage
+
+        local scriptOptions = {}
+        scriptTitleToScript = {}
+        if firstPage and type(firstPage.scripts) == "table" then
+            for _, scr in ipairs(firstPage.scripts) do
+                local displayName = scr.title or "Untitled"
+                table.insert(scriptOptions, displayName)
+                scriptTitleToScript[displayName] = scr
+            end
+        end
+        GameScriptsDropdown:Refresh(scriptOptions)
+        if scriptOptions[1] then
+            GameScriptsDropdown:Set({scriptOptions[1]})
+            currentScript = scriptTitleToScript[scriptOptions[1]]
+        else
+            GameScriptsDropdown:Set({})
+            currentScript = nil
+        end
+    else
+        GameDropdown:Set({})
+        GameScriptsDropdown:Refresh({})
+        GameScriptsDropdown:Set({})
+        currentPage = nil
+        currentScript = nil
+    end
+end
+
+-- Update game list when search loses focus (user finished typing)
+GameSearchInput:Set("") -- ensure initial value
+refreshGameDropdown()
+
+Rayfield:Notify({
+    Title = "ROBScript Hub",
+    Content = "Loaded " .. tostring(#allPages) .. " games. Use search and dropdowns to pick a script.",
+    Duration = 6.5,
+    Image = 0,
+})
