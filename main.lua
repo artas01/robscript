@@ -4447,7 +4447,7 @@ if #allPages == 0 then
     warn("[ROBScript Hub] No pages embedded; UI will still show but be empty.")
 end
 
-i and gethui()) or game:FindFirstChildOfClass("CoreGui") or localPlayer:WaitForChild("PlayerGui")
+local guiParent = (gethui and gethui()) or game:FindFirstChildOfClass("CoreGui") or localPlayer:WaitForChild("PlayerGui")
 
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "ROBScriptHub"
