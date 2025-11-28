@@ -1,7 +1,7 @@
 -- ROBScript Key Loader (fixed so GUI always appears)
 
 local MAIN_URL     = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua"
-local REQUIRED_KEY = "ROBKEY" -- СМЕНИ НА СВОЙ КЛЮЧ
+local REQUIRED_KEY = "NIGGA" -- СМЕНИ НА СВОЙ КЛЮЧ
 
 ---------------------------------------------------------------------
 -- SERVICES
