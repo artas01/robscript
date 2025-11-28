@@ -1,4 +1,21 @@
+-- ROBScript Key Loader (fixed so GUI always appears)
+
+local MAIN_URL     = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua"
+local REQUIRED_KEY = "ROBKEY" -- СМЕНИ НА СВОЙ КЛЮЧ
+
+---------------------------------------------------------------------
+-- SERVICES
+---------------------------------------------------------------------
+
+local Players          = game:GetService("Players")
+local TweenService     = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+
 local localPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
+
+---------------------------------------------------------------------
+-- UI ROOT (с очисткой старого GUI)
+---------------------------------------------------------------------
 
 local guiParent = (gethui and gethui())
     or game:FindFirstChildOfClass("CoreGui")
@@ -8,23 +25,6 @@ local old = guiParent:FindFirstChild("ROBScriptKeyLoader")
 if old then
     old:Destroy()
 end
-
-local MAIN_URL     = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua"
-local REQUIRED_KEY = "ROBKEY" -- СМЕНИ НА СВОЙ КЛЮЧ
-
-local Players          = game:GetService("Players")
-local TweenService     = game:GetService("TweenService")
-local UserInputService = game:GetService("UserInputService")
-
-local localPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
-
----------------------------------------------------------------------
--- UI ROOT
----------------------------------------------------------------------
-
-local guiParent = (gethui and gethui())
-    or game:FindFirstChildOfClass("CoreGui")
-    or localPlayer:WaitForChild("PlayerGui")
 
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "ROBScriptKeyLoader"
@@ -262,7 +262,6 @@ local function showError(msg)
     statusLabel.TextColor3 = Color3.fromRGB(220, 80, 80)
     statusLabel.Text = msg
 
-    -- маленький "shake" окна, чтобы юзер заметил
     task.spawn(function()
         local original = mainFrame.Position
         for i = 1, 6 do
