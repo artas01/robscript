@@ -1,13 +1,4 @@
--- Roblox Script Hub for robscript.com/hub.json
--- - Загружает общий hub.json
--- - Показывает список игр (страниц)
--- - Список скриптов по выбранной игре
--- - Поиск по играм и по скриптам
--- - Запуск выбранного скрипта (с учётом has_key)
--- - Окно перетаскивается
--- - Кнопка Toggle GUI сверху по центру с плавным скрытием / появлением окна
-
-local HUB_URL = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/hub.json"
+local HUB_URL = "https://raw.githubusercontent.com/ordenhub/ordenhub/refs/heads/main/hub.json"
 
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
