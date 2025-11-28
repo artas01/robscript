@@ -166,12 +166,12 @@ screenGui.Name = "ROBScriptHub"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = guiParent
 
--- Кнопка Toggle (верхний центр)
+-- Кнопка Toggle (чуть выше)
 local toggleButton = Instance.new("TextButton")
 toggleButton.Name = "ToggleHubButton"
 toggleButton.Size = UDim2.new(0, 140, 0, 30)
 toggleButton.AnchorPoint = Vector2.new(0.5, 0)
-toggleButton.Position = UDim2.new(0.5, 0, 0, 6)
+toggleButton.Position = UDim2.new(0.5, 0, 0, 2) -- было 0,6 → поднял выше
 toggleButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 toggleButton.BackgroundTransparency = 0.3
 toggleButton.BorderSizePixel = 1
@@ -233,10 +233,6 @@ closeButton.Parent = titleBar
 local uiCornerClose = Instance.new("UICorner")
 uiCornerClose.CornerRadius = UDim.new(0, 6)
 uiCornerClose.Parent = closeButton
-
-closeButton.MouseButton1Click:Connect(function()
-    screenGui:Destroy()
-end)
 
 ---------------------------------------------------------------------
 -- DRAGGING MAIN WINDOW (по titleBar)
@@ -531,6 +527,11 @@ local function hideMain()
         end
     end)
 end
+
+-- Крестик теперь просто скрывает окно, а не уничтожает весь GUI
+closeButton.MouseButton1Click:Connect(function()
+    hideMain()
+end)
 
 toggleButton.MouseButton1Click:Connect(function()
     if isOpen then
