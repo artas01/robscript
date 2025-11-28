@@ -179,7 +179,7 @@ toggleButton.BorderColor3 = Color3.fromRGB(90, 90, 90)
 toggleButton.Text = "Toggle Hub"
 toggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 toggleButton.Font = Enum.Font.Gotham
-toggleButton.TextSize = 14
+toggleButton.TextSize = 20
 toggleButton.Parent = screenGui
 
 local toggleCorner = Instance.new("UICorner")
