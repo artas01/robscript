@@ -1,11 +1,11 @@
 local HUB_URL = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/hub.json"
 
-local HttpService = game:GetService("HttpService")
-local Players = game:GetService("Players")
-local TweenService = game:GetService("TweenService")
+local HttpService    = game:GetService("HttpService")
+local Players        = game:GetService("Players")
+local TweenService   = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 
-local localPlayer = Players.LocalPlayer
+local localPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
 
 ---------------------------------------------------------------------
 -- HTTP / DATA UTILITIES
@@ -147,10 +147,17 @@ if #allPages == 0 then
 end
 
 ---------------------------------------------------------------------
--- UI ROOT
+-- UI ROOT (с очисткой старого GUI)
 ---------------------------------------------------------------------
 
-local guiParent = (gethui and gethui()) or game:FindFirstChildOfClass("CoreGui") or localPlayer:WaitForChild("PlayerGui")
+local guiParent = (gethui and gethui())
+    or game:FindFirstChildOfClass("CoreGui")
+    or localPlayer:WaitForChild("PlayerGui")
+
+local oldHub = guiParent:FindFirstChild("ROBScriptHub")
+if oldHub then
+    oldHub:Destroy()
+end
 
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "ROBScriptHub"
@@ -162,7 +169,7 @@ local toggleButton = Instance.new("TextButton")
 toggleButton.Name = "ToggleHubButton"
 toggleButton.Size = UDim2.new(0, 140, 0, 30)
 toggleButton.AnchorPoint = Vector2.new(0.5, 0)
-toggleButton.Position = UDim2.new(0.1, 0, 0, 2) -- было 0,6 → поднял выше
+toggleButton.Position = UDim2.new(0.1, 0, 0, 2)
 toggleButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 toggleButton.BackgroundTransparency = 0.3
 toggleButton.BorderSizePixel = 1
@@ -246,7 +253,9 @@ do
     end
 
     titleBar.InputBegan:Connect(function(input)
-        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        if input.UserInputType == Enum.UserInputType.MouseButton1
+            or input.UserInputType == Enum.UserInputType.Touch
+        then
             dragging = true
             dragStart = input.Position
             startPos = mainFrame.Position
@@ -260,7 +269,9 @@ do
     end)
 
     titleBar.InputChanged:Connect(function(input)
-        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        if input.UserInputType == Enum.UserInputType.MouseMovement
+            or input.UserInputType == Enum.UserInputType.Touch
+        then
             dragInput = input
         end
     end)
