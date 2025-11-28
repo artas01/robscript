@@ -1,7 +1,3 @@
--- KEY-LOADER для ROBScript Hub
--- После ввода правильного ключа загрузит:
--- loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua'))()
-
 local MAIN_URL    = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua"
 local REQUIRED_KEY = "ROBKEY" -- СМЕНИ НА СВОЙ КЛЮЧ
 
@@ -24,14 +20,14 @@ screenGui.Name = "ROBScriptKeyLoader"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = guiParent
 
--- Основное окно (БЕЗ overlay)
+-- Основное окно
 local mainFrame = Instance.new("Frame")
 mainFrame.Name = "KeyFrame"
 mainFrame.Size = UDim2.new(0, 380, 0, 220)
 mainFrame.Position = UDim2.new(0.5, -190, 0.5, -110)
 mainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 mainFrame.BorderSizePixel = 0
-mainFrame.Parent = screenGui
+mainFrame.Parent = overlay
 
 local uiScale = Instance.new("UIScale")
 uiScale.Scale = 1
@@ -224,7 +220,7 @@ cornerConfirm.CornerRadius = UDim.new(0, 6)
 cornerConfirm.Parent = confirmButton
 
 ---------------------------------------------------------------------
--- TOGGLE ANIMATION ДЛЯ КЕЙ-ОКНА
+-- TOGGLE ANIMATION ДЛЯ КЕЙ-ОКНА (не обязательно, но красиво)
 ---------------------------------------------------------------------
 
 uiScale.Scale = 0.8
