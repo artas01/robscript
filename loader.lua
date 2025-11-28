@@ -1,6 +1,6 @@
 -- ROBScript Key Loader (fixed so GUI always appears)
 
-local MAIN_URL     = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua"
+local MAIN_URL     = "https://raw.githubusercontent.com/CatsScripts/CatsRobloxScripts/refs/heads/main/loader.luau"
 local REQUIRED_KEY = "ROBKEY" -- СМЕНИ НА СВОЙ КЛЮЧ
 
 ---------------------------------------------------------------------
