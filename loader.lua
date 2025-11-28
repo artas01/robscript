@@ -1,11 +1,15 @@
-local MAIN_URL    = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua"
+-- KEY-LOADER для ROBScript Hub
+-- После ввода правильного ключа загрузит:
+-- loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua'))()
+
+local MAIN_URL     = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua"
 local REQUIRED_KEY = "ROBKEY" -- СМЕНИ НА СВОЙ КЛЮЧ
 
 local Players          = game:GetService("Players")
 local TweenService     = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 
-local localPlayer = Players.LocalPlayer
+local localPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
 
 ---------------------------------------------------------------------
 -- UI ROOT
@@ -20,14 +24,14 @@ screenGui.Name = "ROBScriptKeyLoader"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = guiParent
 
--- Основное окно
+-- ОСНОВНОЕ ОКНО БЕЗ ТЁМНОГО ФОНА
 local mainFrame = Instance.new("Frame")
 mainFrame.Name = "KeyFrame"
 mainFrame.Size = UDim2.new(0, 380, 0, 220)
 mainFrame.Position = UDim2.new(0.5, -190, 0.5, -110)
 mainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 mainFrame.BorderSizePixel = 0
-mainFrame.Parent = overlay
+mainFrame.Parent = screenGui
 
 local uiScale = Instance.new("UIScale")
 uiScale.Scale = 1
@@ -37,7 +41,10 @@ local cornerMain = Instance.new("UICorner")
 cornerMain.CornerRadius = UDim.new(0, 10)
 cornerMain.Parent = mainFrame
 
--- Тайтлбар как в хабе
+---------------------------------------------------------------------
+-- TITLEBAR + КРЕСТИК
+---------------------------------------------------------------------
+
 local titleBar = Instance.new("TextLabel")
 titleBar.Name = "TitleBar"
 titleBar.Size = UDim2.new(1, 0, 0, 32)
@@ -53,7 +60,6 @@ local cornerTitle = Instance.new("UICorner")
 cornerTitle.CornerRadius = UDim.new(0, 10)
 cornerTitle.Parent = titleBar
 
--- Крестик (закрывает только окно KeySystem)
 local closeButton = Instance.new("TextButton")
 closeButton.Name = "CloseButton"
 closeButton.AnchorPoint = Vector2.new(1, 0.5)
@@ -75,7 +81,7 @@ closeButton.MouseButton1Click:Connect(function()
 end)
 
 ---------------------------------------------------------------------
--- DRAG (перетаскивание окна по titleBar)
+-- DRAG (перетаскивание окна мышкой по titleBar)
 ---------------------------------------------------------------------
 
 do
@@ -161,7 +167,7 @@ cornerLink.CornerRadius = UDim.new(0, 6)
 cornerLink.Parent = linkButton
 
 linkButton.MouseButton1Click:Connect(function()
-    local url = "https://robscript.com/getkey"
+    local url = "https://robscript.com/getkey" -- твоя страница ключа
     if setclipboard then
         setclipboard(url)
     end
@@ -220,16 +226,23 @@ cornerConfirm.CornerRadius = UDim.new(0, 6)
 cornerConfirm.Parent = confirmButton
 
 ---------------------------------------------------------------------
--- TOGGLE ANIMATION ДЛЯ КЕЙ-ОКНА (не обязательно, но красиво)
+-- АНИМАЦИЯ ПОЯВЛЕНИЯ
 ---------------------------------------------------------------------
 
 uiScale.Scale = 0.8
 mainFrame.Visible = true
-local appearTween = TweenService:Create(uiScale, TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Scale = 1})
-appearTween:Play()
+TweenService:Create(
+    uiScale,
+    TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+    {Scale = 1}
+):Play()
 
 local function destroyWithFade()
-    local tween = TweenService:Create(uiScale, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {Scale = 0.8})
+    local tween = TweenService:Create(
+        uiScale,
+        TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
+        {Scale = 0.8}
+    )
     tween:Play()
     tween.Completed:Connect(function()
         screenGui:Destroy()
@@ -237,7 +250,7 @@ local function destroyWithFade()
 end
 
 ---------------------------------------------------------------------
--- ЗАГРУЗКА ОСНОВНОГО СКРИПТА
+-- ЗАГРУЗКА ОСНОВНОГО СКРИПТА ХАБА
 ---------------------------------------------------------------------
 
 local function loadMainHub()
