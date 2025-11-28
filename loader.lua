@@ -173,7 +173,7 @@ cornerLink.CornerRadius = UDim.new(0, 6)
 cornerLink.Parent = linkButton
 
 linkButton.MouseButton1Click:Connect(function()
-    local url = "https://robscript.com/getkey" -- твоя страница ключа
+    local url = "https://loot-link.com/s?WfeVrHSR" -- твоя страница ключа
     if setclipboard then
         setclipboard(url)
     end
