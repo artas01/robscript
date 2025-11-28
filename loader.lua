@@ -1,6 +1,13 @@
--- KEY-LOADER для ROBScript Hub
--- После ввода правильного ключа загрузит:
--- loadstring(game:HttpGet('https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua'))()
+local localPlayer = Players.LocalPlayer or Players.PlayerAdded:Wait()
+
+local guiParent = (gethui and gethui())
+    or game:FindFirstChildOfClass("CoreGui")
+    or localPlayer:WaitForChild("PlayerGui")
+
+local old = guiParent:FindFirstChild("ROBScriptKeyLoader")
+if old then
+    old:Destroy()
+end
 
 local MAIN_URL     = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua"
 local REQUIRED_KEY = "ROBKEY" -- СМЕНИ НА СВОЙ КЛЮЧ
