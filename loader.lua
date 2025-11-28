@@ -24,16 +24,6 @@ screenGui.Name = "ROBScriptKeyLoader"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = guiParent
 
--- Затемнение фона (легкий overlay)
-local overlay = Instance.new("Frame")
-overlay.Name = "Overlay"
-overlay.Size = UDim2.new(1, 0, 1, 0)
-overlay.Position = UDim2.new(0, 0, 0, 0)
-overlay.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-overlay.BackgroundTransparency = 0.35
-overlay.BorderSizePixel = 0
-overlay.Parent = screenGui
-
 -- Основное окно
 local mainFrame = Instance.new("Frame")
 mainFrame.Name = "KeyFrame"
