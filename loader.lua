@@ -154,8 +154,8 @@ infoLabel.TextYAlignment = Enum.TextYAlignment.Top
 infoLabel.Font = Enum.Font.Gotham
 infoLabel.TextSize = 14
 infoLabel.TextColor3 = Color3.fromRGB(220, 220, 220)
-infoLabel.Text = "Для доступа к ROBScript Hub требуется ключ.\n" ..
-                 "Получи ключ на сайте и введи его ниже."
+infoLabel.Text = "A key is required to access the ROBScript Hub.\n" ..
+                 "Get the key by clicking the button and enter it below"
 infoLabel.Parent = mainFrame
 
 local linkButton = Instance.new("TextButton")
@@ -164,7 +164,7 @@ linkButton.Size = UDim2.new(1, -20, 0, 28)
 linkButton.Position = UDim2.new(0, 10, 0, 100)
 linkButton.BackgroundColor3 = Color3.fromRGB(35, 35, 50)
 linkButton.BorderSizePixel = 0
-linkButton.Text = "Открыть страницу получения ключа"
+linkButton.Text = "Get Key"
 linkButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 linkButton.Font = Enum.Font.Gotham
 linkButton.TextSize = 14
@@ -182,8 +182,8 @@ linkButton.MouseButton1Click:Connect(function()
     if syn and syn.request then
         syn.request({Url = url, Method = "GET"})
     end
-    infoLabel.Text = "Ссылка на ключ: robscript.com/getkey\n" ..
-                     "Скопировано в буфер обмена (если поддерживается)."
+    infoLabel.Text = "Link to key: https://loot-link.com/s?WfeVrHSR\n" ..
+                     "Copied to the clipboard (paste in the browser))."
 end)
 
 local keyBox = Instance.new("TextBox")
@@ -192,7 +192,7 @@ keyBox.Size = UDim2.new(1, -20, 0, 32)
 keyBox.Position = UDim2.new(0, 10, 0, 140)
 keyBox.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 keyBox.BorderSizePixel = 0
-keyBox.PlaceholderText = "Введите ключ..."
+keyBox.PlaceholderText = "Enter the key..."
 keyBox.Text = ""
 keyBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 keyBox.PlaceholderColor3 = Color3.fromRGB(130, 130, 130)
@@ -223,7 +223,7 @@ confirmButton.Size = UDim2.new(1, -20, 0, 30)
 confirmButton.Position = UDim2.new(0, 10, 1, -40)
 confirmButton.BackgroundColor3 = Color3.fromRGB(60, 90, 60)
 confirmButton.BorderSizePixel = 0
-confirmButton.Text = "Разблокировать"
+confirmButton.Text = "Check Key"
 confirmButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 confirmButton.Font = Enum.Font.GothamBold
 confirmButton.TextSize = 16
@@ -260,7 +260,7 @@ local function loadMainHub()
     end)
     if not ok then
         statusLabel.TextColor3 = Color3.fromRGB(200, 80, 80)
-        statusLabel.Text = "Ошибка загрузки хаба."
+        statusLabel.Text = "Hub loading error."
         warn("[ROBScript KeyLoader] HttpGet main.lua failed:", res)
         return
     end
@@ -268,7 +268,7 @@ local function loadMainHub()
     local fn, err = loadstring(res)
     if not fn then
         statusLabel.TextColor3 = Color3.fromRGB(200, 80, 80)
-        statusLabel.Text = "Ошибка компиляции хаба."
+        statusLabel.Text = "Hub compilation error."
         warn("[ROBScript KeyLoader] loadstring main.lua error:", err)
         return
     end
@@ -290,18 +290,18 @@ local function checkKeyAndLoad()
     local key = (keyBox.Text or ""):gsub("^%s+", ""):gsub("%s+$", "")
     if key == "" then
         statusLabel.TextColor3 = Color3.fromRGB(200, 80, 80)
-        statusLabel.Text = "Ключ не введён."
+        statusLabel.Text = "Key is not entered."
         return
     end
 
     if key ~= REQUIRED_KEY then
         statusLabel.TextColor3 = Color3.fromRGB(200, 80, 80)
-        statusLabel.Text = "Неверный ключ."
+        statusLabel.Text = "Wrong Key"
         return
     end
 
     statusLabel.TextColor3 = Color3.fromRGB(120, 220, 120)
-    statusLabel.Text = "Ключ верный, загружаю хаб..."
+    statusLabel.Text = "The key is correct, I'm loading the hub..."
     loadMainHub()
 end
 
