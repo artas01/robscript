@@ -1,7 +1,7 @@
 -- ROBScript Key System using Rayfield
 -- This script shows a Rayfield-based key UI and, on success, loads the main hub script.
 
-local MAIN_URL     = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua"
+local MAIN_URL     = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/mainv2.lua"
 local REQUIRED_KEY = "ROBKEY" -- change this to your real key
 local KEY_PAGE_URL = "https://robscript.com/getkey" -- page where user grabs the key
 
