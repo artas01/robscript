@@ -1,4 +1,4 @@
-local HUB_URL = "https://raw.githubusercontent.com/ordenhub/ordenhub/refs/heads/main/hub.json"
+local HUB_URL = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/hub.json"
 
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
