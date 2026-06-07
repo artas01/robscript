@@ -1,7 +1,7 @@
 -- ROBScript Key Loader (fixed so GUI always appears)
 
 local MAIN_URL     = "https://raw.githubusercontent.com/artas01/robscript/refs/heads/main/main.lua"
-local REQUIRED_KEY = "2026" -- СМЕНИ НА СВОЙ КЛЮЧ
+local REQUIRED_KEY = "KEYROBKA" -- СМЕНИ НА СВОЙ КЛЮЧ
 
 ---------------------------------------------------------------------
 -- SERVICES
@@ -173,14 +173,14 @@ cornerLink.CornerRadius = UDim.new(0, 6)
 cornerLink.Parent = linkButton
 
 linkButton.MouseButton1Click:Connect(function()
-    local url = "https://robscript.com/robscript-hub/#getkey" -- твоя страница ключа
+    local url = "https://loot-link.com/s?WfeVrHSR" -- твоя страница ключа
     if setclipboard then
         setclipboard(url)
     end
     if syn and syn.request then
         syn.request({Url = url, Method = "GET"})
     end
-    infoLabel.Text = "Link to key: https://robscript.com/robscript-hub/#getkey\nCopied to the clipboard (paste in the browser)."
+    infoLabel.Text = "Link to key: https://loot-link.com/s?WfeVrHSR\nCopied to the clipboard (paste in the browser)."
 end)
 
 local keyBox = Instance.new("TextBox")
