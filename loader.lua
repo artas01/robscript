@@ -474,7 +474,7 @@ makeGradient(confirmGlow, Color3.fromRGB(120, 235, 170), Color3.fromRGB(255, 255
 -- BUTTON ACTIONS
 ---------------------------------------------------------------------
 
-local KEY_URL = "https://loot-link.com/s?WfeVrHSR"
+local KEY_URL = "https://loot-link.com/s?EtNeUbnt"
 
 local function copyKeyUrl()
     if setclipboard then
